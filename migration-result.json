@@ -1,0 +1,270 @@
+{
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "source_unity": "6000.3.10f1",
+  "export_unity": "6000.5.3f1",
+  "source_commit": "43e985267fca227ab23816204ca6dc6deaa80078",
+  "meshes": {
+    "SM_0000": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0000",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021625B39300) {origin: {x: 0.000000, y: 0.000000, z: 0.000000}, box_extent: {x: 50.000000, y: 50.000000, z: 50.000000}, sphere_radius: 86.602540}>"
+    },
+    "SM_0001": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0001",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021625B38FC0) {origin: {x: 0.000000, y: 0.000000, z: 0.000000}, box_extent: {x: 50.000000, y: 50.000000, z: 50.000000}, sphere_radius: 50.023304}>"
+    },
+    "SM_0002": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0002",
+      "materials": 2,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000019A98CEEB40) {origin: {x: 114.656532, y: -108.438721, z: 82.780197}, box_extent: {x: 116.980446, y: 299.010559, z: 292.399796}, sphere_radius: 428.154753}>"
+    },
+    "SM_0003": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0003",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000002161256BEC0) {origin: {x: 50.000000, y: 0.000000, z: 0.000000}, box_extent: {x: 50.000000, y: 62.924564, z: 63.070824}, sphere_radius: 70.662430}>"
+    },
+    "SM_0004": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0004",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000215C391A600) {origin: {x: 0.000000, y: 0.000000, z: 209.351814}, box_extent: {x: 234.999985, y: 340.000000, z: 46.648186}, sphere_radius: 413.394177}>"
+    },
+    "SM_0005": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0005",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000002161256FEC0) {origin: {x: 0.000000, y: 0.000000, z: 374.351807}, box_extent: {x: 219.000000, y: 312.500000, z: 46.648193}, sphere_radius: 381.689668}>"
+    },
+    "SM_0006": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0006",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000215C3913B80) {origin: {x: 0.000000, y: 0.000000, z: 539.351776}, box_extent: {x: 203.000015, y: 285.000000, z: 46.648163}, sphere_radius: 350.005369}>"
+    },
+    "SM_0007": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0007",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000002158549FB40) {origin: {x: 0.000000, y: 0.000000, z: 209.351814}, box_extent: {x: 234.999985, y: 340.000000, z: 46.648186}, sphere_radius: 413.394177}>"
+    },
+    "SM_0008": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0008",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021635B24BC0) {origin: {x: 0.000000, y: 0.000000, z: 374.351807}, box_extent: {x: 219.000000, y: 312.500000, z: 46.648193}, sphere_radius: 381.689668}>"
+    },
+    "SM_0009": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0009",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021635B25540) {origin: {x: 0.000000, y: 0.000000, z: 539.351776}, box_extent: {x: 203.000015, y: 285.000000, z: 46.648163}, sphere_radius: 350.005369}>"
+    },
+    "SM_0010": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0010",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021635B27E40) {origin: {x: 0.000000, y: 0.000000, z: 209.351814}, box_extent: {x: 234.999985, y: 340.000000, z: 46.648186}, sphere_radius: 413.394177}>"
+    },
+    "SM_0011": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0011",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021635B2C240) {origin: {x: 0.000000, y: 0.000000, z: 374.351807}, box_extent: {x: 219.000000, y: 312.500000, z: 46.648193}, sphere_radius: 381.689668}>"
+    },
+    "SM_0012": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0012",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021635B2DFC0) {origin: {x: -128.545227, y: 32.412842, z: 900.000000}, box_extent: {x: 1347.368958, y: 1371.206299, z: 900.000000}, sphere_radius: 1712.741460}>"
+    },
+    "SM_0013": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0013",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021640B73A80) {origin: {x: -66.683075, y: 19.658325, z: 1685.160156}, box_extent: {x: 661.356659, y: 676.839844, z: 126.839966}, sphere_radius: 778.521613}>"
+    },
+    "SM_0014": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0014",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021640B772C0) {origin: {x: -94.642944, y: 56.491699, z: 1000.000000}, box_extent: {x: 1162.635742, y: 1172.412109, z: 1000.000000}, sphere_radius: 1649.807916}>"
+    },
+    "SM_0015": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0015",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021640B7C340) {origin: {x: -48.227875, y: 29.057922, z: 1871.160156}, box_extent: {x: 569.375641, y: 577.677856, z: 140.839966}, sphere_radius: 698.609313}>"
+    },
+    "SM_0016": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0016",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021635B2F9C0) {origin: {x: -24.132812, y: 70.481567, z: 1200.000000}, box_extent: {x: 1353.245728, y: 1353.245850, z: 1200.000000}, sphere_radius: 1952.205319}>"
+    },
+    "SM_0017": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0017",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021640B7DD00) {origin: {x: -11.173523, y: 37.951477, z: 2243.160034}, box_extent: {x: 676.029846, y: 670.116943, z: 168.839966}, sphere_radius: 806.204154}>"
+    },
+    "SM_0018": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0018",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021640B7F380) {origin: {x: 36.458862, y: 90.200806, z: 1100.000000}, box_extent: {x: 1419.764160, y: 1376.947510, z: 1100.000000}, sphere_radius: 1895.157161}>"
+    },
+    "SM_0019": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0019",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B93153C0) {origin: {x: 13.745178, y: 47.090698, z: 2057.160034}, box_extent: {x: 706.874084, y: 688.499878, z: 154.839966}, sphere_radius: 799.386450}>"
+    },
+    "SM_0020": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0020",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B9313640) {origin: {x: 87.703003, y: 61.283447, z: 1047.000000}, box_extent: {x: 1668.730835, y: 1666.723145, z: 1047.000000}, sphere_radius: 2035.771570}>"
+    },
+    "SM_0021": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0021",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B931A3C0) {origin: {x: 37.861572, y: 36.031219, z: 1958.580139}, box_extent: {x: 823.522644, y: 827.827972, z: 147.420105}, sphere_radius: 907.416213}>"
+    },
+    "SM_0022": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0022",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000215969B7EC0) {origin: {x: 124.845337, y: 11.568237, z: 1197.000000}, box_extent: {x: 1605.863892, y: 1659.196289, z: 1197.000000}, sphere_radius: 2148.917328}>"
+    },
+    "SM_0023": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0023",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B9316A40) {origin: {x: 59.833679, y: 10.266907, z: 2237.580200}, box_extent: {x: 787.148254, y: 816.192566, z: 168.420044}, sphere_radius: 942.276053}>"
+    },
+    "SM_0024": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0024",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216646E3840) {origin: {x: 0.000000, y: 0.000000, z: 47.000000}, box_extent: {x: 1.440000, y: 3.600000, z: 40.000000}, sphere_radius: 40.161673}>"
+    },
+    "SM_0025": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0025",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216646E6340) {origin: {x: -0.000008, y: 0.000006, z: 0.000000}, box_extent: {x: 50.000015, y: 50.000006, z: 100.000000}, sphere_radius: 111.803415}>"
+    },
+    "SM_0026": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0026",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216646E5FC0) {origin: {x: 0.000000, y: 0.000000, z: -16.000001}, box_extent: {x: 1.794000, y: 2.300000, z: 12.500001}, sphere_radius: 12.675174}>"
+    },
+    "SM_0027": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0027",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216646EE7C0) {origin: {x: 0.000000, y: 0.002509, z: -15.750000}, box_extent: {x: 2.137764, y: 2.604763, z: 11.976020}, sphere_radius: 12.195858}>"
+    },
+    "SM_0028": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0028",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000021621C79580) {origin: {x: 0.000000, y: 0.000000, z: -15.750000}, box_extent: {x: 2.137764, y: 2.650000, z: 11.976020}, sphere_radius: 12.225784}>"
+    },
+    "SM_0029": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0029",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216646EFC40) {origin: {x: 0.000000, y: 0.000000, z: -1.307770}, box_extent: {x: 1.400000, y: 13.194595, z: 3.707770}, sphere_radius: 13.256217}>"
+    },
+    "SM_0030": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0030",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B9562CC0) {origin: {x: 0.499717, y: 4.705544, z: -29.655275}, box_extent: {x: 0.802826, y: 4.842444, z: 7.692751}, sphere_radius: 9.040488}>"
+    },
+    "SM_0031": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0031",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B9562700) {origin: {x: 1.349372, y: 8.225532, z: -16.329933}, box_extent: {x: 0.596205, y: 0.634167, z: 4.191189}, sphere_radius: 4.211823}>"
+    },
+    "SM_0032": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0032",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B9567280) {origin: {x: 1.349590, y: 8.824846, z: -16.040793}, box_extent: {x: 0.596424, y: 0.535088, z: 4.480329}, sphere_radius: 4.495566}>"
+    },
+    "SM_0033": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0033",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B956DB80) {origin: {x: 1.349739, y: 9.424644, z: -15.746142}, box_extent: {x: 0.596572, y: 0.435356, z: 4.774980}, sphere_radius: 4.787507}>"
+    },
+    "SM_0034": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0034",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B956DB80) {origin: {x: 1.349577, y: 9.924767, z: -16.045922}, box_extent: {x: 0.596411, y: 0.435168, z: 4.475200}, sphere_radius: 4.488577}>"
+    },
+    "SM_0035": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0035",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x00000216B9317A00) {origin: {x: 1.349322, y: 10.424798, z: -16.345684}, box_extent: {x: 0.596156, y: 0.435201, z: 4.175438}, sphere_radius: 4.191108}>"
+    },
+    "SM_0036": {
+      "asset": "/Game/TianNanGe/Meshes/SM_0036",
+      "materials": 1,
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000019A98CE9A00) {origin: {x: 49.157998, y: -7.566904, z: 0.256604}, box_extent: {x: 49.657135, y: 33.259199, z: 16.364518}, sphere_radius: 52.854830}>"
+    }
+  },
+  "materials": {
+    "M_000": {
+      "source": "Assets/TianNanGe/Materials/Stone.mat",
+      "name": "Stone",
+      "asset": "/Game/TianNanGe/Materials/M_000"
+    },
+    "M_001": {
+      "source": "Assets/TianNanGe/Effects/Snow/SurfaceSnow/SurfaceSnow.mat",
+      "name": "SurfaceSnow",
+      "asset": "/Game/TianNanGe/Materials/M_001"
+    },
+    "M_002": {
+      "source": "Assets/TianNanGe/Materials/BlueTimber.mat",
+      "name": "BlueTimber",
+      "asset": "/Game/TianNanGe/Materials/M_002"
+    },
+    "M_003": {
+      "source": "Assets/TianNanGe/Materials/Snow.mat",
+      "name": "Snow",
+      "asset": "/Game/TianNanGe/Materials/M_003"
+    },
+    "M_004": {
+      "source": "Assets/TianNanGe/Dragon/MAXDESIGN/Dragon_Slate.mat",
+      "name": "Dragon_Slate",
+      "asset": "/Game/TianNanGe/Materials/M_004"
+    },
+    "M_005": {
+      "source": "Assets/TianNanGe/Dragon/MAXDESIGN/Dragon_Eye.mat",
+      "name": "Dragon_Eye",
+      "asset": "/Game/TianNanGe/Materials/M_005"
+    },
+    "M_006": {
+      "source": "Assets/TianNanGe/Tripo/MainPavilion01/MainPavilion_H31_HDRP.mat",
+      "name": "MainPavilion_H31_HDRP",
+      "asset": "/Game/TianNanGe/Materials/M_006"
+    },
+    "M_007": {
+      "source": "Assets/TianNanGe/Materials/Roof.mat",
+      "name": "Roof",
+      "asset": "/Game/TianNanGe/Materials/M_007"
+    },
+    "M_008": {
+      "source": "Assets/TianNanGe/Materials/MountainRock.mat",
+      "name": "MountainRock",
+      "asset": "/Game/TianNanGe/Materials/M_008"
+    },
+    "M_009": {
+      "source": "Assets/TianNanGe/Materials/Props/HandSword_Scabbard.mat",
+      "name": "HandSword_Scabbard",
+      "asset": "/Game/TianNanGe/Materials/M_009"
+    },
+    "M_010": {
+      "source": "Assets/TianNanGe/Materials/Props/HandSword_Gold.mat",
+      "name": "HandSword_Gold",
+      "asset": "/Game/TianNanGe/Materials/M_010"
+    },
+    "M_011": {
+      "source": "Assets/TianNanGe/Materials/Props/HandSword_Wrap.mat",
+      "name": "HandSword_Wrap",
+      "asset": "/Game/TianNanGe/Materials/M_011"
+    },
+    "M_012": {
+      "source": "Assets/TianNanGe/Materials/Props/HandSword_Tassel.mat",
+      "name": "HandSword_Tassel",
+      "asset": "/Game/TianNanGe/Materials/M_012"
+    },
+    "M_013": {
+      "source": "Assets/Character/little+green/tripo_convert_4dee5643-20cb-465c-a529-88f2794a3fe2.fbx",
+      "name": "tripo_mat_4dee5643",
+      "asset": "/Game/TianNanGe/Materials/M_013"
+    }
+  },
+  "actors": 543,
+  "errors": [],
+  "warnings": [
+    "Particle systems are not exported; snow requires a Niagara implementation."
+  ]
+}

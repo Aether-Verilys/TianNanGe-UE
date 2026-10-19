@@ -1,0 +1,754 @@
+{
+  "author": "Pleasant233",
+  "units": "cm",
+  "camera": {
+    "position": [
+      -460,
+      0,
+      88
+    ],
+    "pitch": 4.2,
+    "hfov": 58.7979375,
+    "aspect": 2.0667008722421754
+  },
+  "meshes": [
+    {
+      "name": "SM_Bridge_Timber_Rails",
+      "material": "timber",
+      "vertices": 104556,
+      "triangles": 209088,
+      "bounds": [
+        [
+          -1650.0,
+          -82.74897894973405,
+          -147.61875320909095
+        ],
+        [
+          2150.0,
+          400.6733182360279,
+          135.11066495767423
+        ]
+      ]
+    },
+    {
+      "name": "SM_Bridge_Timber_Posts",
+      "material": "timber",
+      "vertices": 495,
+      "triangles": 840,
+      "bounds": [
+        [
+          -1503.7879060832963,
+          -82.823859323322,
+          -167.084350776872
+        ],
+        [
+          2153.787906083296,
+          400.84514574918853,
+          144.0
+        ]
+      ]
+    },
+    {
+      "name": "SM_Bridge_Snow_Rails",
+      "material": "snow",
+      "vertices": 104552,
+      "triangles": 209088,
+      "bounds": [
+        [
+          -1650.0797022676459,
+          -86.62547964743717,
+          -145.2871957609711
+        ],
+        [
+          2150.079586265789,
+          403.39336650616815,
+          139.94863184238184
+        ]
+      ]
+    },
+    {
+      "name": "SM_Bridge_Snow_Caps",
+      "material": "snow",
+      "vertices": 51778,
+      "triangles": 95760,
+      "bounds": [
+        [
+          -2000.0779189233353,
+          -86.20446803119948,
+          -171.86927339859727
+        ],
+        [
+          2165.920920630922,
+          404.25861376357153,
+          152.0003745023988
+        ]
+      ]
+    },
+    {
+      "name": "SM_Bridge_Icicles",
+      "material": "ice",
+      "vertices": 14094,
+      "triangles": 23490,
+      "bounds": [
+        [
+          -317.2146930299675,
+          -73.02486531667914,
+          -151.11661340240224
+        ],
+        [
+          2181.1120030063385,
+          396.8650537278792,
+          127.84626191435505
+        ]
+      ]
+    },
+    {
+      "name": "SM_Bridge_Snow_Deck",
+      "material": "snow",
+      "vertices": 20910,
+      "triangles": 40720,
+      "bounds": [
+        [
+          -2000.0,
+          -80.53349989420497,
+          -162.2758594608626
+        ],
+        [
+          2150.0,
+          401.31886577794694,
+          59.61640619153733
+        ]
+      ]
+    },
+    {
+      "name": "SM_Bridge_Structure",
+      "material": "timber",
+      "vertices": 12244,
+      "triangles": 24480,
+      "bounds": [
+        [
+          -2000.0,
+          -87.24255756542523,
+          -183.44594684364318
+        ],
+        [
+          2150.0,
+          407.069369635107,
+          54.9372570736989
+        ]
+      ]
+    }
+  ],
+  "landmarks": [
+    {
+      "rail": "L_upper",
+      "x": -350,
+      "reference_uv": [
+        -0.12,
+        -0.124
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        -350.0,
+        -79.03595324002572,
+        134.67083375518644
+      ],
+      "projection": [
+        -0.12,
+        -0.124
+      ]
+    },
+    {
+      "rail": "L_upper",
+      "x": 70,
+      "reference_uv": [
+        0.413,
+        0.607
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        70.0,
+        -51.878759237664084,
+        95.96480118252617
+      ],
+      "projection": [
+        0.413,
+        0.607
+      ]
+    },
+    {
+      "rail": "L_upper",
+      "x": 430,
+      "reference_uv": [
+        0.52,
+        0.686
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        430.0,
+        19.964051168352952,
+        63.278862904866344
+      ],
+      "projection": [
+        0.52,
+        0.686
+      ]
+    },
+    {
+      "rail": "L_upper",
+      "x": 1000,
+      "reference_uv": [
+        0.55,
+        0.728
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        1000.0,
+        81.73859394526525,
+        14.380794281738218
+      ],
+      "projection": [
+        0.55,
+        0.728
+      ]
+    },
+    {
+      "rail": "L_upper",
+      "x": 2150,
+      "reference_uv": [
+        0.577,
+        0.75
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        2150.0,
+        224.8312035071691,
+        -74.49081942504321
+      ],
+      "projection": [
+        0.577,
+        0.75
+      ]
+    },
+    {
+      "rail": "L_middle",
+      "x": -350,
+      "reference_uv": [
+        -0.12,
+        0.5854
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        -350.0,
+        -76.79854857336753,
+        90.94562562775047
+      ],
+      "projection": [
+        -0.12,
+        0.5854000000000001
+      ]
+    },
+    {
+      "rail": "L_middle",
+      "x": 70,
+      "reference_uv": [
+        0.413,
+        0.739
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        70.0,
+        -51.60715388758348,
+        58.138131843957666
+      ],
+      "projection": [
+        0.413,
+        0.739
+      ]
+    },
+    {
+      "rail": "L_middle",
+      "x": 430,
+      "reference_uv": [
+        0.52,
+        0.766
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        430.0,
+        19.900773765787548,
+        24.943667317238386
+      ],
+      "projection": [
+        0.52,
+        0.766
+      ]
+    },
+    {
+      "rail": "L_middle",
+      "x": 1000,
+      "reference_uv": [
+        0.55,
+        0.78
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        1000.0,
+        81.57028792002626,
+        -26.404978424047968
+      ],
+      "projection": [
+        0.55,
+        0.78
+      ]
+    },
+    {
+      "rail": "L_middle",
+      "x": 2150,
+      "reference_uv": [
+        0.577,
+        0.79
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        2150.0,
+        224.4752331801268,
+        -130.50553146380724
+      ],
+      "projection": [
+        0.577,
+        0.79
+      ]
+    },
+    {
+      "rail": "L_lower",
+      "x": -350,
+      "reference_uv": [
+        -0.12,
+        1.0051
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        -350.0,
+        -75.53349989420497,
+        66.22300052017923
+      ],
+      "projection": [
+        -0.12,
+        1.0051
+      ]
+    },
+    {
+      "rail": "L_lower",
+      "x": 70,
+      "reference_uv": [
+        0.413,
+        0.858
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        70.0,
+        -51.364723684058255,
+        24.374705815312986
+      ],
+      "projection": [
+        0.413,
+        0.8579999999999999
+      ]
+    },
+    {
+      "rail": "L_lower",
+      "x": 430,
+      "reference_uv": [
+        0.52,
+        0.826
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        430.0,
+        19.853578327187215,
+        -3.6486309794180016
+      ],
+      "projection": [
+        0.52,
+        0.8259999999999998
+      ]
+    },
+    {
+      "rail": "L_lower",
+      "x": 1000,
+      "reference_uv": [
+        0.55,
+        0.806
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        1000.0,
+        81.48639455633555,
+        -46.73494378419488
+      ],
+      "projection": [
+        0.55,
+        0.806
+      ]
+    },
+    {
+      "rail": "L_lower",
+      "x": 2150,
+      "reference_uv": [
+        0.577,
+        0.798
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        2150.0,
+        224.4041743359077,
+        -141.6871957609711
+      ],
+      "projection": [
+        0.577,
+        0.798
+      ]
+    },
+    {
+      "rail": "R_upper",
+      "x": -350,
+      "reference_uv": [
+        1.12,
+        0.1755
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        -350.0,
+        78.07564042344248,
+        115.9036083183756
+      ],
+      "projection": [
+        1.12,
+        0.1755000000000001
+      ]
+    },
+    {
+      "rail": "R_upper",
+      "x": 15,
+      "reference_uv": [
+        0.742,
+        0.6
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        15.0,
+        129.36734360461728,
+        96.94602553501181
+      ],
+      "projection": [
+        0.742,
+        0.6
+      ]
+    },
+    {
+      "rail": "R_upper",
+      "x": 300,
+      "reference_uv": [
+        0.682,
+        0.675
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        300.0,
+        155.20423512397457,
+        71.40725760954408
+      ],
+      "projection": [
+        0.682,
+        0.675
+      ]
+    },
+    {
+      "rail": "R_upper",
+      "x": 650,
+      "reference_uv": [
+        0.64,
+        0.716
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        650.0,
+        174.08532256093443,
+        39.20319031100355
+      ],
+      "projection": [
+        0.64,
+        0.716
+      ]
+    },
+    {
+      "rail": "R_upper",
+      "x": 1200,
+      "reference_uv": [
+        0.645,
+        0.74
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        1200.0,
+        269.38515040036935,
+        -6.422435710707248
+      ],
+      "projection": [
+        0.645,
+        0.74
+      ]
+    },
+    {
+      "rail": "R_upper",
+      "x": 2150,
+      "reference_uv": [
+        0.636,
+        0.753
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        2150.0,
+        397.05723966589227,
+        -78.69808450342015
+      ],
+      "projection": [
+        0.636,
+        0.7529999999999999
+      ]
+    },
+    {
+      "rail": "R_middle",
+      "x": -350,
+      "reference_uv": [
+        1.12,
+        0.6342
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        -350.0,
+        76.64928405481636,
+        88.0285752447996
+      ],
+      "projection": [
+        1.12,
+        0.6342000000000001
+      ]
+    },
+    {
+      "rail": "R_middle",
+      "x": 15,
+      "reference_uv": [
+        0.742,
+        0.747
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        15.0,
+        128.61333027115285,
+        59.19378816477424
+      ],
+      "projection": [
+        0.742,
+        0.747
+      ]
+    },
+    {
+      "rail": "R_middle",
+      "x": 300,
+      "reference_uv": [
+        0.682,
+        0.772
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        300.0,
+        154.6079114413034,
+        31.70733092368892
+      ],
+      "projection": [
+        0.682,
+        0.772
+      ]
+    },
+    {
+      "rail": "R_middle",
+      "x": 650,
+      "reference_uv": [
+        0.64,
+        0.782
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        650.0,
+        173.63039645800947,
+        -0.16920675448596967
+      ],
+      "projection": [
+        0.64,
+        0.782
+      ]
+    },
+    {
+      "rail": "R_middle",
+      "x": 1200,
+      "reference_uv": [
+        0.645,
+        0.787
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        1200.0,
+        268.8839397340768,
+        -48.30481425115792
+      ],
+      "projection": [
+        0.645,
+        0.787
+      ]
+    },
+    {
+      "rail": "R_middle",
+      "x": 2150,
+      "reference_uv": [
+        0.636,
+        0.792
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        2150.0,
+        396.4443524423256,
+        -133.3016113737158
+      ],
+      "projection": [
+        0.636,
+        0.792
+      ]
+    },
+    {
+      "rail": "R_lower",
+      "x": -350,
+      "reference_uv": [
+        1.12,
+        1.011
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        -350.0,
+        75.516013256121,
+        65.88126221013403
+      ],
+      "projection": [
+        1.12,
+        1.011
+      ]
+    },
+    {
+      "rail": "R_lower",
+      "x": 15,
+      "reference_uv": [
+        0.742,
+        0.866
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        15.0,
+        128.0093459423833,
+        28.953262254116154
+      ],
+      "projection": [
+        0.742,
+        0.8660000000000001
+      ]
+    },
+    {
+      "rail": "R_lower",
+      "x": 300,
+      "reference_uv": [
+        0.682,
+        0.83
+      ],
+      "visible_reference_anchor": true,
+      "world": [
+        300.0,
+        154.25353090354938,
+        8.114638269407905
+      ],
+      "projection": [
+        0.682,
+        0.83
+      ]
+    },
+    {
+      "rail": "R_lower",
+      "x": 650,
+      "reference_uv": [
+        0.64,
+        0.812
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        650.0,
+        173.42439693618232,
+        -17.997805545655268
+      ],
+      "projection": [
+        0.64,
+        0.8119999999999999
+      ]
+    },
+    {
+      "rail": "R_lower",
+      "x": 1200,
+      "reference_uv": [
+        0.645,
+        0.802
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        1200.0,
+        268.72437125366366,
+        -61.638743373658684
+      ],
+      "projection": [
+        0.645,
+        0.802
+      ]
+    },
+    {
+      "rail": "R_lower",
+      "x": 2150,
+      "reference_uv": [
+        0.636,
+        0.8
+      ],
+      "visible_reference_anchor": false,
+      "world": [
+        2150.0,
+        396.31886577794694,
+        -144.48150579277285
+      ],
+      "projection": [
+        0.636,
+        0.8
+      ]
+    }
+  ],
+  "total_triangles": 603466,
+  "primary_posts": 15,
+  "notes": [
+    "real 3D geometry",
+    "preserve existing lighting and camera",
+    "sparse asymmetric pillars",
+    "left middle and right lower are snow-clumped ropes"
+  ],
+  "rear_curve": {
+    "start_x_cm": 250,
+    "max_extra_sag_cm": 115,
+    "max_right_bow_cm": 135,
+    "far_end_lift_cm": 172,
+    "far_end_left_return_cm": 285,
+    "foreground_posts_preserved": true
+  }
+}

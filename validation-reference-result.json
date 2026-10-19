@@ -1,0 +1,48 @@
+{
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "source_commit": "fdf5e672e4081c53729675a72b944f8cde8f5c28",
+  "expected_actors": 388,
+  "actual_source_actors": 388,
+  "mesh_assets": 29,
+  "all_material_slots_valid": true,
+  "nanite_enabled_meshes": 29,
+  "new_source_material_actor_counts": {
+    "MainPavilion_H31_HDRP": 1,
+    "LeftPavilion_H31_8K_HDRP": 1,
+    "FarPavilion_H31_8K_HDRP": 1,
+    "FarRight_H31_8K_HDRP": 1,
+    "TeaHouse_H31_8K_HDRP": 1,
+    "GuestHouse_H31_8K_HDRP": 1,
+    "WatchTower_H31_8K_HDRP": 1,
+    "MainHall_H31_8K_HDRP": 1,
+    "SnowMountain_P20_8K_HDRP": 8
+  },
+  "skinned_world_heights_cm": {
+    "dragon": {
+      "actual": 432.35973892021224,
+      "source_pose": 327.54522705078125
+    },
+    "tripo_node_4dee5643": {
+      "actual": 198.62858548844775,
+      "source_pose": 198.6285400390625
+    }
+  },
+  "material_outputs_valid": true,
+  "saved_camera": {
+    "pitch": 4.1999998092651385,
+    "yaw": 0.0,
+    "roll": -0.0,
+    "horizontal_fov": 58.79793930053711
+  },
+  "character_feet_z_cm": 7.299999999999997,
+  "character_lateral_cm": 32.00000522577864,
+  "bridge_snow_detail_actors": 120,
+  "saved_lights": {
+    "Lookdev Warm backlight": 35000.0,
+    "Lookdev Cool soft fill": 10000.0
+  },
+  "saved_fog_density": 0.18000000715255737,
+  "saved_fixed_ev": 12.0,
+  "final_look_persisted": true,
+  "pass": true
+}

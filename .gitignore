@@ -1,0 +1,53 @@
+# Unreal generated data and local editor state
+/Binaries/
+/Build/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Backups/
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.VC.db
+*.opensdf
+*.sdf
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Download fragments, source checkouts and disposable Unity export projects
+/LfsParts/
+/SourceSnapshot/
+/UnityExportLatest/
+/UnityExportProject/
+/UnityProbe/
+/Transfer-source.zip
+*.part
+
+# OBJ exports can be regenerated from the Unity source; retain scene metadata.
+/Transfer/*
+!/Transfer/scene.json
+/Transfer_fdf5e67/*
+!/Transfer_fdf5e67/scene.json
+/Transfer_BridgeReference/BeforeRearCurve/
+
+# Runtime command queue, local diagnostics and one-off probes
+/Tools/Live/
+/Tools/Diagnostics/
+/Tools/*.png
+/Tools/probe.obj
+/Content/MigrationProbe/
+
+# Keep only reviewed captures, not every diagnostic iteration.
+/Captures/*
+!/Captures/UE58_Hero.png
+!/Captures/UE58_Overview.png
+!/Captures/ReferenceLook/
+/Captures/ReferenceLook/*
+!/Captures/ReferenceLook/UE58_ReferenceLook_Final_4K.png
+!/Captures/ReferenceLook/Bridge_Reference_Rebuilt_4K.png
+!/Captures/ReferenceLook/Bridge_RearCurve_Side.png

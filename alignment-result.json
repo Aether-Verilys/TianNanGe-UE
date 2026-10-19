@@ -1,0 +1,33 @@
+{
+  "character_yaw_adjustment_degrees": 20,
+  "character_lateral_offset_cm": -32.1,
+  "actors_adjusted": [
+    "ScabbardBody",
+    "ScabbardMouth",
+    "ScabbardMouthInset",
+    "ScabbardEndCap",
+    "ScabbardBand",
+    "ScabbardBandInset",
+    "GripCore",
+    "GripBinding_0",
+    "GripBinding_1",
+    "GripFrontCollar",
+    "GripRearCollar",
+    "BladeFerrule",
+    "Guard",
+    "GuardCentre",
+    "GuardJadeInset",
+    "GuardLeftFinial",
+    "GuardRightFinial",
+    "Pommel",
+    "PommelJadeInset",
+    "TasselCord",
+    "TasselKnot",
+    "TasselStrand_0",
+    "TasselStrand_1",
+    "TasselStrand_2",
+    "TasselStrand_3",
+    "TasselStrand_4",
+    "tripo_node_4dee5643"
+  ]
+}

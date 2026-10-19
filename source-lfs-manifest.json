@@ -1,0 +1,157 @@
+[
+  {
+    "path": "Project_TianNanGe/Assets/Animations/X Bot@Standing Idle.fbx",
+    "sha256": "cfb73257b4eb103fe14a39b29f5672a05ff825028781b981f8aecb6878ca431f",
+    "size": 2201520
+  },
+  {
+    "path": "Project_TianNanGe/Assets/Animations/X Bot@Walking.fbx",
+    "sha256": "00fef4782c3c6ff24ae756dc1619033568dcbd418b76f8be8884271f2fef5760",
+    "size": 1845392
+  },
+  {
+    "path": "Project_TianNanGe/Assets/Character/little+green/tripo_convert_4dee5643-20cb-465c-a529-88f2794a3fe2.fbx",
+    "sha256": "0691e3ee6881677ade4e13a09afe84c3d7b53a542b0e6b8c640df8f0ca145e19",
+    "size": 2134748
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx",
+    "sha256": "3a7d457ed0b39384279291bd5b97ab50b6e31c5f6ba82e5b31ee1eb3ce339a6c",
+    "size": 44416
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx",
+    "sha256": "4f28059b32d69e59cf06b4c45d835d383ec06c5dcbf1fdfb4752bea0b1c41618",
+    "size": 46016
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx",
+    "sha256": "b124c0922a1e19b85021ab16b78e3631eb30468a184245c54a25f7b75f343470",
+    "size": 41696
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx",
+    "sha256": "8e63bc500f570a23dbb7abc531408dbe14d3d277a9d9bd6bb23de3b933f76f92",
+    "size": 15712
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx",
+    "sha256": "fe3cfedd00fc819fbd8aa448692f0b2a5f5fe674ae6a2aeb70583fe9be8dd3e3",
+    "size": 42320
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx",
+    "sha256": "2345d168fa232cb8d3f10aa0396bbfbdc9289692aa1a4df83916068dccab2085",
+    "size": 51120
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx",
+    "sha256": "8910086aa9b94688985f48229e94da0e103069cf1132e77212baa4a61328dff1",
+    "size": 83088
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx",
+    "sha256": "88d4ca85f3bf982a9171da02eeaf81d89ea6b90fd2a1c937aa87bddde40b7506",
+    "size": 64832
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx",
+    "sha256": "953c2a5856d09dc770c6800bc0b6cd0acd911872617c0ab5cefb94a7b2e665af",
+    "size": 45056
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx",
+    "sha256": "ca8967836f70302ded22b1544f13de9b27fdaa98c8d705124743a853e58951da",
+    "size": 45440
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--InAir.anim.fbx",
+    "sha256": "99806ec74b51f36a591dabbfea7d2cc10b1d9a233c3bc2088b0764f96cbc5ade",
+    "size": 920880
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx",
+    "sha256": "78fa361c2443838db77abab4776e37dd4417ad80ce10fd504b261a57db54cb17",
+    "size": 783936
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N.anim.fbx",
+    "sha256": "ab015b180e89496180a3e81a75160c9fe2b27095e6590d1f0125fcfa85bd787c",
+    "size": 605520
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N_Land.anim.fbx",
+    "sha256": "c6eb01346c8898a0256cfc27df52bba82c3b49703d19b23c2859e3e2285dcd60",
+    "size": 605552
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_S.anim.fbx",
+    "sha256": "36bf882d36113820169653cfe90835664afdf3b6c5829226f9a46c3137dc85bf",
+    "size": 600032
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx",
+    "sha256": "d5d9574fb98cc9d44e654d47ea6af766c3955e4c477d289644f25dbfb52cda92",
+    "size": 652672
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N_Land.anim.fbx",
+    "sha256": "5bf601e30e89e7601e1735a3c2ca165f370d90457e3b22ebfa366dc84ecffda5",
+    "size": 652800
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx",
+    "sha256": "22338f453bfd818ee35b6b4cf463c16f2257a7b61d4911ef9fffdbe342e36c6d",
+    "size": 1123312
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx",
+    "sha256": "855e05c72da761ccd2bfb2ec8e77599677d327d627ee51c0bf6a818ce958b7f1",
+    "size": 5021936
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-0.exr",
+    "sha256": "3f98807ea3ce5947a3e7a8d8c82b99456b990239ad2580295a6ae08b8ef301d8",
+    "size": 294012
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-1.exr",
+    "sha256": "497335461d61ebc4e159f59569f5758954139f03a9bc3e07077b0f72c45ee696",
+    "size": 222352
+  },
+  {
+    "path": "Project_TianNanGe/Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr",
+    "sha256": "fff1c05e1b8411b2ff7f1a45d0c019547c98a3a26bf6eef68653a0d310541b5e",
+    "size": 292520
+  },
+  {
+    "path": "Project_TianNanGe/Assets/ThirdParty/MAXDESIGNChineseDragon/ChineseDragon.fbx",
+    "sha256": "28ba94119e6bf5eb773acd9ac7f8dd9654bc80dd5558ae8c70411629c85a3e70",
+    "size": 34422016
+  },
+  {
+    "path": "Project_TianNanGe/Assets/ThirdParty/NSSMChineseDragon/ChineseDragon.fbx",
+    "sha256": "fea19057090ca1346701230bcb0c6c7819ce5e01a165769c0163bc25a6688e76",
+    "size": 2358108
+  },
+  {
+    "path": "Project_TianNanGe/Assets/TianNanGe/Lighting/HDRI/kloofendal_38d_partly_cloudy_puresky_4k.exr",
+    "sha256": "905d651e58c5e22bd5eb5c03d0322518e10b4c6411f8ceb092fba67712cecde2",
+    "size": 75168342
+  },
+  {
+    "path": "Project_TianNanGe/Assets/TianNanGe/Tripo/MainPavilion01/MainPavilion_H31.fbx",
+    "sha256": "e3dbaae2c9c514aaeb2502982a5e0560fc3e74e397306f13722ca8a28b8b0a99",
+    "size": 70254140
+  },
+  {
+    "path": "SourceAssets/MAXDESIGNChineseDragon/source/Chinese dragon.fbx",
+    "sha256": "28ba94119e6bf5eb773acd9ac7f8dd9654bc80dd5558ae8c70411629c85a3e70",
+    "size": 34422016
+  },
+  {
+    "path": "SourceAssets/NSSMChineseDragon/chinese_dragon.blend",
+    "sha256": "99c3b56261fdc6416838e2469cdbd4db87e5a92b746f8ebf145c58f261c9ad43",
+    "size": 2674800
+  }
+]

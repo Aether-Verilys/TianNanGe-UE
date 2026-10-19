@@ -1,0 +1,19 @@
+[
+  {
+    "source": "D:\\Dev\\TianNanGe\\Project_TianNanGe\\Assets\\ThirdParty\\MAXDESIGNChineseDragon\\ChineseDragon.fbx",
+    "name": "SK_ChineseDragon",
+    "assets": [
+      "/Game/TianNanGe/Rigs/SK_ChineseDragon/SK_ChineseDragon_Skeleton.SK_ChineseDragon_Skeleton",
+      "/Game/TianNanGe/Rigs/SK_ChineseDragon/SK_ChineseDragon.SK_ChineseDragon",
+      "/Game/TianNanGe/Rigs/SK_ChineseDragon/SK_ChineseDragon_Anim.SK_ChineseDragon_Anim"
+    ]
+  },
+  {
+    "source": "D:\\Dev\\TianNanGe\\Project_TianNanGe\\Assets\\Character\\little+green\\tripo_convert_4dee5643-20cb-465c-a529-88f2794a3fe2.fbx",
+    "name": "SK_LittleGreen",
+    "assets": [
+      "/Game/TianNanGe/Rigs/SK_LittleGreen/SK_LittleGreen_Skeleton.SK_LittleGreen_Skeleton",
+      "/Game/TianNanGe/Rigs/SK_LittleGreen/SK_LittleGreen.SK_LittleGreen"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "asset": "/Game/TianNanGe/Lighting/T_Kloofendal_Cube.T_Kloofendal_Cube",
+  "rotation_degrees": 163.7267,
+  "radiance_multiplier_approximate": 17752.022004617498,
+  "source": "Poly Haven Kloofendal 38d Partly Cloudy Pure Sky, CC0",
+  "conversion": "EXR -> Radiance HDR with Blender image.save; linear data, no view transform"
+}

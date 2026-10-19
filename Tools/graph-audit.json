@@ -1,0 +1,104 @@
+{
+  "/Game/TianNanGe/Materials/M_000.M_000": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_000.M_000:MaterialExpressionConstant3Vector_1' (0x0000026720D22D80) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_001.M_001": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_001.M_001:MaterialExpressionConstant3Vector_1' (0x0000026720D22680) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_002.M_002": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_002.M_002:MaterialExpressionConstant3Vector_1' (0x0000026720D23100) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_003.M_003": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_003.M_003:MaterialExpressionConstant3Vector_1' (0x0000026720D239C0) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_004.M_004": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_004.M_004:MaterialExpressionConstant3Vector_1' (0x0000026720D232C0) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_005.M_005": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_005.M_005:MaterialExpressionMultiply_1' (0x00000266C57CC6C0) Class 'MaterialExpressionMultiply'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_006.M_006": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_006.M_006:MaterialExpressionMultiply_1' (0x00000266C57CB180) Class 'MaterialExpressionMultiply'>",
+    "emissive": "None",
+    "nodes": [
+      {
+        "type": "MaterialExpressionOneMinus",
+        "inputs": [
+          "<Object '/Game/TianNanGe/Materials/M_006.M_006:MaterialExpressionTextureSample_5' (0x0000026720BBEB00) Class 'MaterialExpressionTextureSample'>"
+        ]
+      }
+    ]
+  },
+  "/Game/TianNanGe/Materials/M_007.M_007": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_007.M_007:MaterialExpressionConstant3Vector_1' (0x0000026720B0B700) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_008.M_008": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_008.M_008:MaterialExpressionConstant3Vector_1' (0x0000026720D25320) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_009.M_009": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_009.M_009:MaterialExpressionConstant3Vector_1' (0x0000026720D25A20) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_010.M_010": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_010.M_010:MaterialExpressionConstant3Vector_1' (0x0000026720B0BA00) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_011.M_011": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_011.M_011:MaterialExpressionConstant3Vector_1' (0x0000026720D263C0) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_012.M_012": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_012.M_012:MaterialExpressionConstant3Vector_1' (0x0000026720D26D60) Class 'MaterialExpressionConstant3Vector'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Materials/M_013.M_013": {
+    "base": "<Object '/Game/TianNanGe/Materials/M_013.M_013:MaterialExpressionMultiply_1' (0x00000266BE7CD480) Class 'MaterialExpressionMultiply'>",
+    "emissive": "None",
+    "nodes": []
+  },
+  "/Game/TianNanGe/Lighting/M_Kloofendal_Sky.M_Kloofendal_Sky": {
+    "base": "None",
+    "emissive": "<Object '/Game/TianNanGe/Lighting/M_Kloofendal_Sky.M_Kloofendal_Sky:MaterialExpressionMultiply_1' (0x00000266C56D7F80) Class 'MaterialExpressionMultiply'>",
+    "nodes": [
+      {
+        "type": "MaterialExpressionCustom",
+        "inputs": [
+          "None"
+        ]
+      },
+      {
+        "type": "MaterialExpressionCustom",
+        "inputs": [
+          "<Object '/Game/TianNanGe/Lighting/M_Kloofendal_Sky.M_Kloofendal_Sky:MaterialExpressionSubtract_1' (0x00000266C56D8480) Class 'MaterialExpressionSubtract'>"
+        ]
+      },
+      {
+        "type": "MaterialExpressionTextureSampleParameterCube",
+        "inputs": [
+          "<Object '/Game/TianNanGe/Lighting/M_Kloofendal_Sky.M_Kloofendal_Sky:MaterialExpressionCustom_1' (0x00000266C56D7E40) Class 'MaterialExpressionCustom'>",
+          "None"
+        ]
+      }
+    ]
+  }
+}

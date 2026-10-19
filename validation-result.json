@@ -1,0 +1,16 @@
+{
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "expected_mesh_actors": 543,
+  "actual_mesh_actors": 543,
+  "all_have_mesh": true,
+  "all_have_materials": true,
+  "camera_position_error_cm": 0.0,
+  "camera_horizontal_fov": 61.2502555847168,
+  "map_reloaded": true,
+  "material_graphs_connected": true,
+  "skinned_height_relative_error": {
+    "dragon": 2.235837688801553e-07,
+    "tripo_node_4dee5643": 2.2881598637496886e-07
+  },
+  "pass": true
+}

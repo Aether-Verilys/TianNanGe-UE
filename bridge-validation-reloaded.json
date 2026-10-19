@@ -1,0 +1,80 @@
+{
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "errors": [],
+  "lights_and_camera_preserved": true,
+  "new_bridge": [
+    {
+      "label": "Reference Bridge Timber_Rails",
+      "asset": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Rails.SM_Bridge_Timber_Rails",
+      "visible": true,
+      "nanite": false,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001DF7B7F2700) {origin: {x: 250.000000, y: 175.096825, z: -31.237778}, box_extent: {x: 1900.000000, y: 257.845802, z: 166.348434}, sphere_radius: 1924.127731}>",
+      "materials": [
+        "/Game/TianNanGe/BridgeReference/Materials/M_WeatheredBridgeTimber.M_WeatheredBridgeTimber"
+      ]
+    },
+    {
+      "label": "Reference Bridge Timber_Posts",
+      "asset": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Posts.SM_Bridge_Timber_Posts",
+      "visible": true,
+      "nanite": false,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001DF7B7F2940) {origin: {x: 324.999939, y: 161.823421, z: -28.033173}, box_extent: {x: 1828.787903, y: 244.647282, z: 172.033173}, sphere_radius: 1851.962037}>",
+      "materials": [
+        "/Game/TianNanGe/BridgeReference/Materials/M_WeatheredBridgeTimber.M_WeatheredBridgeTimber"
+      ]
+    },
+    {
+      "label": "Reference Bridge Snow_Rails",
+      "asset": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Rails.SM_Bridge_Snow_Rails",
+      "visible": true,
+      "nanite": false,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001DF7B7F2E40) {origin: {x: 249.999939, y: 175.016239, z: -27.500977}, box_extent: {x: 1900.079651, y: 261.641720, z: 167.449600}, sphere_radius: 1924.425696}>",
+      "materials": [
+        "/Game/TianNanGe/Revision_fdf5e67/Lookdev/M_PowderSnow.M_PowderSnow"
+      ]
+    },
+    {
+      "label": "Reference Bridge Snow_Caps",
+      "asset": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Caps.SM_Bridge_Snow_Caps",
+      "visible": true,
+      "nanite": false,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001DF7B7F2E80) {origin: {x: 82.921509, y: 175.097824, z: -28.613831}, box_extent: {x: 2082.999390, y: 261.302292, z: 180.614197}, sphere_radius: 2100.659205}>",
+      "materials": [
+        "/Game/TianNanGe/Revision_fdf5e67/Lookdev/M_PowderSnow.M_PowderSnow"
+      ]
+    },
+    {
+      "label": "Reference Bridge Icicles",
+      "asset": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Icicles.SM_Bridge_Icicles",
+      "visible": true,
+      "nanite": false,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001DF7B7F2800) {origin: {x: 931.948685, y: 176.829987, z: -37.259434}, box_extent: {x: 1249.163376, y: 249.854858, z: 165.105694}, sphere_radius: 1267.557544}>",
+      "materials": [
+        "/Game/TianNanGe/BridgeReference/Materials/M_OpaqueFrostedIce.M_OpaqueFrostedIce"
+      ]
+    },
+    {
+      "label": "Reference Bridge Snow_Deck",
+      "asset": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Deck.SM_Bridge_Snow_Deck",
+      "visible": true,
+      "nanite": false,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001DF7B7F2580) {origin: {x: 75.000000, y: 176.533360, z: -75.103523}, box_extent: {x: 2075.000000, y: 257.066860, z: 134.719933}, sphere_radius: 2095.026736}>",
+      "materials": [
+        "/Game/TianNanGe/Revision_fdf5e67/Lookdev/M_PowderSnow.M_PowderSnow"
+      ]
+    },
+    {
+      "label": "Reference Bridge Structure",
+      "asset": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Structure.SM_Bridge_Structure",
+      "visible": true,
+      "nanite": false,
+      "bounds": "<Struct 'BoxSphereBounds' (0x000001DF7B7F2380) {origin: {x: 75.000000, y: 176.130840, z: -88.659399}, box_extent: {x: 2075.000000, y: 263.373402, z: 143.596659}, sphere_radius: 2095.869301}>",
+      "materials": [
+        "/Game/TianNanGe/BridgeReference/Materials/M_WeatheredBridgeTimber.M_WeatheredBridgeTimber"
+      ]
+    }
+  ],
+  "legacy_bridge_hidden": 309,
+  "scene": "/Game/TianNanGe/Maps/TianNanGe_ReferenceLook.TianNanGe_ReferenceLook",
+  "passed": true
+}

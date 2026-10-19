@@ -1,0 +1,10 @@
+{
+  "map": "/Game/TianNanGe/Maps/TianNanGe_ReferenceLook",
+  "reference": "D:/Dev/TianNanGe/4TianNan1_4k_fb78c.jpg",
+  "key_lux": 42000,
+  "fill_lux": 3800,
+  "sky_strength": 2800,
+  "fixed_ev": 12,
+  "snow_material_slots": 91,
+  "warnings": []
+}
