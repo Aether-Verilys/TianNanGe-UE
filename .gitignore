@@ -42,6 +42,11 @@ Thumbs.db
 /Tools/probe.obj
 /Content/MigrationProbe/
 
+# User-supplied EasySnow package and local integration trial (not redistributed)
+/Content/EasySnow/
+/Content/TianNanGe/EasySnowIntegration/
+/Content/Chaotic_Skies_II/
+
 # Keep only reviewed captures, not every diagnostic iteration.
 /Captures/*
 !/Captures/UE58_Hero.png

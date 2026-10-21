@@ -1,12 +1,14 @@
 """Local, file-driven UE editor session for repeatable lighting/capture iterations."""
 import unreal as u
-import json,time,traceback
+import json,time,traceback,os
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 LIVE=ROOT/'Tools/Live'
 LIVE.mkdir(exist_ok=True)
-u.get_editor_subsystem(u.LevelEditorSubsystem).load_level('/Game/TianNanGe/Maps/TianNanGe_ReferenceLook')
+requested_map=os.environ.get('TIANNANGE_EDITOR_MAP','/Game/TianNanGe/Maps/TianNanGe_ReferenceLook')
+if not u.get_editor_subsystem(u.UnrealEditorSubsystem).get_editor_world().get_path_name().startswith(requested_map+'.'):
+    u.get_editor_subsystem(u.LevelEditorSubsystem).load_level(requested_map)
 state={'last':None,'running':False}
 
 def tick(dt):
@@ -15,6 +17,8 @@ def tick(dt):
         return
     try:
         command=json.loads(job.read_text(encoding='utf-8'))
+        if command.get('pid',os.getpid())!=os.getpid():
+            return
         if command['id']==state['last']:
             return
         state['last']=command['id'];state['running']=True
@@ -31,5 +35,5 @@ def tick(dt):
     (LIVE/'status.json').write_text(json.dumps(status,indent=2),encoding='utf-8')
 
 handle=u.register_slate_post_tick_callback(tick)
-(LIVE/'ready.json').write_text(json.dumps({'engine':u.SystemLibrary.get_engine_version(),'time':time.time()}))
+(LIVE/'ready.json').write_text(json.dumps({'engine':u.SystemLibrary.get_engine_version(),'time':time.time(),'pid':os.getpid(),'map':requested_map}))
 u.log('TIANNANGE_LIVE_READY')

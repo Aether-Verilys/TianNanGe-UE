@@ -2,6 +2,10 @@ import json,sys,time
 from pathlib import Path
 root=(Path(__file__).resolve().parents[1] / 'Tools')
 job={'id':str(time.time_ns()),'script':str(root/sys.argv[1])}
+ready=root/'Live/ready.json'
+if ready.exists():
+    pid=json.loads(ready.read_text()).get('pid')
+    if pid:job['pid']=pid
 if len(sys.argv)>2:job.update(json.loads(sys.argv[2]))
 for attempt in range(50):
     try:(root/'Live/command.json').write_text(json.dumps(job),encoding='utf-8');break

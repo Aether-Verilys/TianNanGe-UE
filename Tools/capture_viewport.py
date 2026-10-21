@@ -7,6 +7,8 @@ camera=next(a for a in actors.get_all_level_actors() if isinstance(a,u.CameraAct
 u.get_editor_subsystem(u.LevelEditorSubsystem).pilot_level_actor(camera)
 level=u.get_editor_subsystem(u.LevelEditorSubsystem)
 level.editor_set_game_view(True)
+# The native True branch removes an override and ensures when none exists.
+level.editor_set_viewport_realtime(False)
 level.editor_set_viewport_realtime(True)
 state={'start':time.time(),'handle':None,'task':None,'requested':False}
 def tick(dt):

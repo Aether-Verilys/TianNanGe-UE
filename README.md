@@ -34,6 +34,8 @@ git lfs pull
 
 `Tools/` 内主要为 UE 编辑器 Python，`TianNanGeExport.cs` 为 Unity 导出入口。项目启用了引擎内置的 `PythonScriptPlugin` 和 `EditorScriptingUtilities`，没有额外 C++ 模块。
 
+本分支还同步了本机 EasySnow 风雪与表面积雪、Chaotic Skies II 天空替换及 `SkyRotationDegrees` 旋转参数的集成脚本，以及 Lumen 缓存曝光范围修复。具体配置、操作入口和验证记录见 [EasySnow 接入说明](EasySnow接入说明.md)。用户提供的商业资源包及依赖它们的 `/Game/TianNanGe/EasySnowIntegration` 试验关卡没有上传；克隆仓库后默认仍打开上文的 ReferenceLook 关卡，不会直接获得本机最新风雪场景。使用可选工具前，需要自行准备相应资源和本地试验关卡；历史调试脚本不能按文件名顺序批量运行。
+
 当前桥体的 OBJ 与生成清单保存在 `Transfer_BridgeReference/`。使用带 NumPy 的普通 Python 可重新生成：
 
 ```powershell
