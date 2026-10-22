@@ -36,6 +36,8 @@ git lfs pull
 
 本分支还同步了本机 EasySnow 风雪与表面积雪、Chaotic Skies II 天空替换及 `SkyRotationDegrees` 旋转参数的集成脚本，以及 Lumen 缓存曝光范围修复。具体配置、操作入口和验证记录见 [EasySnow 接入说明](EasySnow接入说明.md)。用户提供的商业资源包及依赖它们的 `/Game/TianNanGe/EasySnowIntegration` 试验关卡没有上传；克隆仓库后默认仍打开上文的 ReferenceLook 关卡，不会直接获得本机最新风雪场景。使用可选工具前，需要自行准备相应资源和本地试验关卡；历史调试脚本不能按文件名顺序批量运行。
 
+体积云改动包含原生 HeterogeneousVolume 材质、十组云材质实例、128³ 主形状和 32³ 侵蚀噪声，以及桥两侧扩展后的布局配置，见 [云海实现](云海实现.md)。当前保留扩大覆盖、增加密度的版本；后续试验过的光影强化已撤回。噪声原始数据采用 MIT 许可，来源与转换记录见 [CloudNoise](ThirdPartyNotices/CloudNoise.md)。云海资产可以从内容浏览器取得；Actor 在上述本地试验关卡中，关卡本身仍不随仓库分发。
+
 当前桥体的 OBJ 与生成清单保存在 `Transfer_BridgeReference/`。使用带 NumPy 的普通 Python 可重新生成：
 
 ```powershell

@@ -1,0 +1,144 @@
+{
+  "actors": [
+    {
+      "label": "Cloud Sea - Left 01",
+      "center": [
+        100.0,
+        -424.824258,
+        -58.577891292682935
+      ],
+      "extent": [
+        660.0,
+        475.0,
+        200.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_L_01.MI_CloudSea_L_01"
+    },
+    {
+      "label": "Cloud Sea - Left 02",
+      "center": [
+        650.0,
+        -391.2582315718158,
+        -148.73315813008134
+      ],
+      "extent": [
+        705.0,
+        510.0,
+        210.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_L_02.MI_CloudSea_L_02"
+    },
+    {
+      "label": "Cloud Sea - Left 03",
+      "center": [
+        1200.0,
+        -299.5828538780491,
+        -275.3770963658536
+      ],
+      "extent": [
+        750.0,
+        545.0,
+        220.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_L_03.MI_CloudSea_L_03"
+    },
+    {
+      "label": "Cloud Sea - Left 04",
+      "center": [
+        1750.0,
+        -435.71722238482374,
+        -235.720279485095
+      ],
+      "extent": [
+        795.0,
+        580.0,
+        230.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_L_04.MI_CloudSea_L_04"
+    },
+    {
+      "label": "Cloud Sea - Left 05",
+      "center": [
+        2150.0,
+        -737.2106868292683,
+        -93.12091473170732
+      ],
+      "extent": [
+        840.0,
+        615.0,
+        240.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_L_05.MI_CloudSea_L_05"
+    },
+    {
+      "label": "Cloud Sea - Right 01",
+      "center": [
+        100.0,
+        515.175742,
+        -58.577891292682935
+      ],
+      "extent": [
+        660.0,
+        475.0,
+        200.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_R_01.MI_CloudSea_R_01"
+    },
+    {
+      "label": "Cloud Sea - Right 02",
+      "center": [
+        650.0,
+        698.7417684281842,
+        -148.73315813008134
+      ],
+      "extent": [
+        705.0,
+        510.0,
+        210.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_R_02.MI_CloudSea_R_02"
+    },
+    {
+      "label": "Cloud Sea - Right 03",
+      "center": [
+        1200.0,
+        940.417146121951,
+        -275.3770963658536
+      ],
+      "extent": [
+        750.0,
+        545.0,
+        220.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_R_03.MI_CloudSea_R_03"
+    },
+    {
+      "label": "Cloud Sea - Right 04",
+      "center": [
+        1750.0,
+        954.2827776151762,
+        -235.720279485095
+      ],
+      "extent": [
+        795.0,
+        580.0,
+        230.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_R_04.MI_CloudSea_R_04"
+    },
+    {
+      "label": "Cloud Sea - Right 05",
+      "center": [
+        2150.0,
+        802.7893131707317,
+        -93.12091473170732
+      ],
+      "extent": [
+        840.0,
+        615.0,
+        240.0
+      ],
+      "instance": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_R_05.MI_CloudSea_R_05"
+    }
+  ]
+}

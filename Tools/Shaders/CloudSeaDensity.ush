@@ -1,0 +1,15 @@
+// Density-only volume material. UE supplies real scene lighting and opaque shadows.
+float3 q = (WorldPos - CloudCenter) / max(CloudExtent, 1.0);
+float envelope = smoothstep(0.0, 0.48, 1.0 - dot(q, q));
+float corridor = smoothstep(125.0, 235.0, abs(WorldPos.y - BridgeY));
+float3 drift = float3(-0.57, 0.82, 0.035) * TimeSeconds * WindSpeed;
+float3 uvw = (WorldPos + drift) / max(ShapePeriod, 50.0) + Seed;
+float4 shape = Texture3DSampleLevel(ShapeNoise, ShapeNoiseSampler, uvw, 0);
+float worley = dot(shape.gba, float3(0.625, 0.25, 0.125));
+float base = saturate((shape.r + worley - 1.0) / max(worley, 0.025));
+float3 detailUV = (WorldPos + drift * 1.27) / max(DetailPeriod, 20.0) + Seed * 1.71;
+float3 detail = Texture3DSampleLevel(ErosionNoise, ErosionNoiseSampler, detailUV, 0).rgb;
+float erosion = 1.0 - dot(detail, float3(0.625, 0.25, 0.125));
+float cloud = saturate((base - (1.0 - Coverage)) / max(Coverage, 0.05) - erosion * ErosionStrength);
+float vertical = smoothstep(-1.0, -0.68, q.z) * (1.0 - smoothstep(0.55, 1.0, q.z));
+return cloud * envelope * vertical * corridor * Extinction;

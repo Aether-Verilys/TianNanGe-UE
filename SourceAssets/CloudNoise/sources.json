@@ -1,0 +1,34 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/TylerDodds/VolumetricCloudsTutorial/master/Assets/VolumetricCloudsTutorial/CloudDensity/NoiseTextures/noiseShape.tga",
+    "volume_resolution": [
+      128,
+      128,
+      128
+    ],
+    "original_sha256": "f409a34bc88ba2e42fe6cd7af81d52957b28e910e68e19fc68337167791ffdbd",
+    "atlas": "SourceAssets\\CloudNoise\\noiseShape_atlas.png",
+    "atlas_size": [
+      2048,
+      1024
+    ],
+    "tile_size": 128,
+    "license": "MIT, Tyler Dodds 2019"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/TylerDodds/VolumetricCloudsTutorial/master/Assets/VolumetricCloudsTutorial/CloudDensity/NoiseTextures/noiseErosion.tga",
+    "volume_resolution": [
+      32,
+      32,
+      32
+    ],
+    "original_sha256": "e279f30ca7d101a6b02282929127fb139f3306b38a1ae80b41f1a69d8d285d41",
+    "atlas": "SourceAssets\\CloudNoise\\noiseErosion_atlas.png",
+    "atlas_size": [
+      256,
+      128
+    ],
+    "tile_size": 32,
+    "license": "MIT, Tyler Dodds 2019"
+  }
+]
