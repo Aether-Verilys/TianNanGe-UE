@@ -17,7 +17,7 @@ for d in baseline:
 for a in actors:
     if isinstance(a,u.StaticMeshActor):
         for m in a.static_mesh_component.get_materials():
-            if m and any(p in m.get_path_name() for p in ['/EasySnowIntegration/Materials/','/EasySnowIntegration/SurfaceSnow/Materials/']):out['surface_snow_materials_in_use'].append(m.get_path_name())
+            if m and any(p in m.get_path_name() for p in ['/EasySnowIntegration/Materials/','/EasySnowIntegration/SurfaceSnow/']):out['surface_snow_materials_in_use'].append(m.get_path_name())
     if str(a.get_folder_path()) not in ['EasySnow/Weather','EasySnow/Weather Layers']:continue
     assert a.get_editor_property('Collision') is False
     d={'label':a.get_actor_label(),'collision':False,'components':[]}

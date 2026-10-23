@@ -5,21 +5,26 @@
 
 用户提供的 UE 5.4 EasySnow 内容已在本机 UE 5.8.3 加载、运行和渲染验证。原始资源仍保存在 E: 下载目录；工程里的 `/Game/EasySnow` 保留原始引用路径。来源为 William Faucher 的 [EasySnow](https://www.fab.com/listings/4fda5b2e-c44d-4df5-b7e2-afb7f2d6ed35?lang=en)。资源包及依赖它的试验关卡已加入 `.gitignore`，本轮未上传。
 
-## 当前配置：细密飘雪与薄层表面积雪，关闭碰撞和位移
+## 当前配置：细密飘雪、表面积雪与小幅几何位移，关闭碰撞
 
 | 场景对象或材质 | 当前作用 |
 | --- | --- |
-| `EasySnow - TianNanGe Light Flurries` | 随相机移动的细密雪花，60000/s；近景尺寸 0.12–0.34 cm；风向 125°，风强 5.5；湍流及相机淡出 |
-| `EasySnow - Courtyard Distant Flurries` | 庭院及建筑之间的远景雪幕，32000/s；固定区域；缩小远景雪点 |
-| `EasySnow - Bridge Ground Spindrift` | 桥面附近的低层吹雪，漂移粒子 18/s，不透明度 0.20；关闭此层普通雪花生成 |
+| `EasySnow - TianNanGe Light Flurries` | 随相机移动的细密雪花，60000/s；近景尺寸 0.10–0.28 cm；风向 125°，风强 5.5；湍流及相机淡出 |
+| `EasySnow - Courtyard Distant Flurries` | 庭院及建筑之间的远景雪幕，32000/s；近景尺寸 0.10–0.26 cm、远景尺寸倍率 0.68；固定区域 |
+| `EasySnow - Bridge Ground Spindrift` | 桥面附近的低层吹雪，漂移粒子 18/s，不透明度 0.10；关闭此层普通雪花生成 |
 | 雪花碰撞 | 按用户要求，三层全部关闭；Niagara 的 `User.collision` 同步关闭 |
 | 新增表面积雪 | 已在屋顶、木结构、桥面、桥栏杆和岩石的环境材质中接入 EasySnow；覆盖量 0.28，以朝上的表面为主 |
-| 迎风堆积、雪面闪烁及位移 | 全部关闭；新材质不连接位移或 WPO，不启用 Nanite 细分 |
+| 几何积雪位移 | 屋顶、建筑和岩石共 18 个物体已启用 Nanite 位移；按实例缩放补偿，世界位移边界上限 0.6 cm，主天气位移倍率 0.5 |
+| 迎风堆积、雪面闪烁 | 继续关闭；前景桥不启用 Nanite 位移，保留其独立雪层、雪团与冰挂网格 |
 | `EasySnow Mask - Hero Footing` | 新材质启用原生 Custom Snow Masking，使用保留的脚下排除遮罩 |
 
-只有主天气对象开启 `Set World Snow Material Settings`；`snowAmount` 当前为 0.28，`Transition Sharpness` 为 3.5，`breakupIntensity` 为 0.55，`breakupTextureTiling` 为 1.5。迎风覆盖、位移和闪烁参数均为零，其余两层关闭全局参数写入。原模型的雪层、桥上雪团和冰挂继续保留。风雪由 EasySnow 的 Niagara 系统实际运行，动态预览不是图像合成。
+只有主天气对象开启 `Set World Snow Material Settings`；`snowAmount` 当前为 0.28，`Transition Sharpness` 为 3.5，`breakupIntensity` 为 0.55，`breakupTextureTiling` 为 1.5。位移倍率为 0.5，迎风覆盖和闪烁参数为零，其余两层关闭全局参数写入。原模型的雪层、桥上雪团和冰挂继续保留。风雪由 EasySnow 的 Niagara 系统实际运行，动态预览不是图像合成。
 
 新增积雪属于材质表面覆盖，不是雪花逐粒碰撞后形成的永久雪堆，也不会随运行时间自行增厚。人物、龙、剑和天空不追加积雪。新建的 12 组父材质及实例位于 `/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials`，保留源材质的输入和细节，独立于之前带位移的试验材质。初次绑定 176 个环境物体；用户同时编辑删除的物体不恢复，验证只检查现场仍存在的绑定。
+
+其中 10 组建筑及岩石材质已复制到 `SurfaceSnow/DisplacedMaterials` 并接通完整 Material Attributes 的 Displacement 输出；这是当前的几何起伏版本。入口 `Tools/enable_surface_snow_geometry.py`，记录 `Saved/EasySnow/surface-geometry.json`。木结构仍使用无位移覆盖材质，桥的几何结构不改。纯覆盖版本的历史验证 `surface-verified.json` 不代表当前位移开关状态。
+
+桥两侧新增的原创云海及三维噪声、原生体积光照见 [云海实现](云海实现.md)。没有使用商店 VolumeCloud 包。
 
 前景桥继续使用完整的普通静态网格，未启用 Nanite，保留细雪团与冰挂。人物、龙和剑没有追加积雪覆盖；目前它们仍为静态姿态，EasySnow 的风不会自动驱动衣服或骨骼。
 

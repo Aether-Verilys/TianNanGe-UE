@@ -10,13 +10,19 @@ surface_report=root/'Saved/EasySnow/surface-snow.json'
 if surface_report.exists():
     for entry in json.loads(surface_report.read_text())['materials']:
         source_map[entry['material']]=entry['source']
+geometry_report=root/'Saved/EasySnow/surface-geometry.json'
+if geometry_report.exists():
+    for entry in json.loads(geometry_report.read_text())['materials']:
+        base=entry['material'].replace('/DisplacedMaterials/','/Materials/').replace('_Geometry','')
+        assert base in source_map,base
+        source_map[entry['material']]=source_map[base]
 report={'profile':'fine_dense_weather_only','collision_enabled':False,'added_surface_accumulation':False,'restored_material_slots':[],'weather':[]}
 light_rotations={a.get_name():a.get_actor_rotation() for a in all_actors if isinstance(a,u.DirectionalLight)}
 for a in all_actors:
     if not isinstance(a,u.StaticMeshActor):continue
     c=a.static_mesh_component
     for slot,mi in enumerate(c.get_materials()):
-        if not mi or not any(p in mi.get_path_name() for p in ['/EasySnowIntegration/Materials/','/EasySnowIntegration/SurfaceSnow/Materials/']):continue
+        if not mi or not any(p in mi.get_path_name() for p in ['/EasySnowIntegration/Materials/','/EasySnowIntegration/SurfaceSnow/']):continue
         parent=mi.get_editor_property('parent') if isinstance(mi,u.MaterialInstanceConstant) else mi
         original=source_map.get(parent.get_path_name())
         assert original,(mi.get_path_name(),parent.get_path_name())
