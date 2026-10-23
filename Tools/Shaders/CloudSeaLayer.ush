@@ -1,0 +1,52 @@
+// A continuous 3D cloud deck with a rolling upper boundary, not ellipsoids.
+float angle = radians(WindRotationDegrees);
+float cs = cos(angle), sn = sin(angle);
+float3 drift = float3(-0.57 * cs - 0.82 * sn, -0.57 * sn + 0.82 * cs, 0.0) * TimeSeconds * WindSpeed;
+float2 xy = WorldPos.xy + drift.xy;
+float3 largeUVW = float3(xy / max(WavePeriod, 100.0), 0.37);
+float3 billowUVW = float3(xy / max(BillowPeriod, 50.0), 0.63);
+float large = Texture3DSampleLevel(ShapeNoise, ShapeNoiseSampler, largeUVW, 0).r;
+float billow = Texture3DSampleLevel(ShapeNoise, ShapeNoiseSampler, billowUVW, 0).r;
+large = saturate((large - 0.70) / 0.27);
+billow = saturate((billow - 0.70) / 0.27);
+float top = SeaLevel + (large - 0.5) * WaveHeight * 2.0
+                     + (billow - 0.5) * WaveHeight * BillowStrength;
+float3 detailUVW = (WorldPos + drift) / max(DetailPeriod, 20.0);
+float3 detail = Texture3DSampleLevel(ErosionNoise, ErosionNoiseSampler, detailUVW, 0).rgb;
+float erosion = 1.0 - dot(detail, float3(0.625, 0.25, 0.125));
+float depth = top - WorldPos.z - erosion * ErosionDepth;
+float body = smoothstep(-SurfaceSoftness, SurfaceSoftness, depth);
+float3 volumeUVW = (WorldPos + drift) / max(BillowPeriod, 50.0);
+float4 shape = Texture3DSampleLevel(ShapeNoise, ShapeNoiseSampler, volumeUVW, 0);
+float interior = lerp(0.65, 1.0, shape.r);
+float2 distanceToEdge = CloudExtent.xy - abs(WorldPos.xy - CloudCenter.xy);
+float edge = smoothstep(0.0, EdgeFade, min(distanceToEdge.x, distanceToEdge.y));
+float bottom = smoothstep(0.0, 160.0, WorldPos.z - (CloudCenter.z - CloudExtent.z));
+// Preserve the walkable bridge without cutting a vertical slot through the deck.
+float x = WorldPos.x;
+float by = lerp(45.175742, 153.741768, saturate((x - 100.0) / 550.0));
+float bz = lerp(6.422109, -75.733158, saturate((x - 100.0) / 550.0));
+by = lerp(by, 320.417146, saturate((x - 650.0) / 550.0));
+bz = lerp(bz, -194.377096, saturate((x - 650.0) / 550.0));
+by = lerp(by, 259.282778, saturate((x - 1200.0) / 550.0));
+bz = lerp(bz, -146.720279, saturate((x - 1200.0) / 550.0));
+by = lerp(by, 32.789313, saturate((x - 1750.0) / 400.0));
+bz = lerp(bz, 3.879085, saturate((x - 1750.0) / 400.0));
+float nearBridge = 1.0 - smoothstep(120.0 * BridgeClearanceWidth, 260.0 * BridgeClearanceWidth, abs(WorldPos.y - by));
+// Clearance is a shallow band under the walking surface, not a deep tunnel
+// through the cloud. At 40 cm below the deck the full cloud density returns.
+float aboveUnderpass = smoothstep(bz - 40.0, bz - 11.25, WorldPos.z);
+// Keep the approved upper contour and softness. Gradually thicken the core
+// below it so short near-camera rays do not expose meshes through the body.
+// All terms depend on world-space depth, never distance to the camera.
+float coreWeight = smoothstep(0.35 * max(SurfaceSoftness, 1.0),
+                              1.5 * max(SurfaceSoftness, 1.0), depth);
+float coreDensity = lerp(1.0, max(InteriorDensityBoost, 1.0), coreWeight);
+float effectiveExtinction = max(Extinction, 0.0) * max(DensityMultiplier, 0.0);
+float density = body * interior * coreDensity * edge * bottom *
+    (1.0 - nearBridge * aboveUnderpass * saturate(BridgeClearanceStrength)) * effectiveExtinction;
+// UE's inscattering cache writes black below extinction 1e-7. Keep nearby
+// cache cells illuminated so a moving surface never interpolates to black.
+// Bounded support is optically negligible and is zero when density is off.
+float cacheSupport = 2.0e-7 * edge * bottom * step(1.0e-7, effectiveExtinction);
+return max(density, cacheSupport);

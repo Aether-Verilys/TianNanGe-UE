@@ -36,7 +36,7 @@ git lfs pull
 
 本分支还同步了本机 EasySnow 风雪与表面积雪、Chaotic Skies II 天空替换及 `SkyRotationDegrees` 旋转参数的集成脚本，以及 Lumen 缓存曝光范围修复。具体配置、操作入口和验证记录见 [EasySnow 接入说明](EasySnow接入说明.md)。用户提供的商业资源包及依赖它们的 `/Game/TianNanGe/EasySnowIntegration` 试验关卡没有上传；克隆仓库后默认仍打开上文的 ReferenceLook 关卡，不会直接获得本机最新风雪场景。使用可选工具前，需要自行准备相应资源和本地试验关卡；历史调试脚本不能按文件名顺序批量运行。
 
-体积云改动包含原生 HeterogeneousVolume 材质、十组云材质实例、128³ 主形状和 32³ 侵蚀噪声，以及桥两侧扩展后的布局配置，见 [云海实现](云海实现.md)。当前保留扩大覆盖、增加密度的版本；后续试验过的光影强化已撤回。噪声原始数据采用 MIT 许可，来源与转换记录见 [CloudNoise](ThirdPartyNotices/CloudNoise.md)。云海资产可以从内容浏览器取得；Actor 在上述本地试验关卡中，关卡本身仍不随仓库分发。
+体积云使用原生 HeterogeneousVolume 连续云海，通过场景中的 `BP_CloudSeaController` 分组参数调整高度、密度、形态、流动、避让和颜色，并写入 `MI_CloudSea_Layer` 派生的动态实例，见 [云海实现](云海实现.md)。本轮同步控制器、密度倍率上限20、确定性采样与分层修正，以及云表面出现云下模型硬轮廓的雾光合成修正。旧云团 Actor、材质和生成脚本已清理，共用的 128³ 主形状和 32³ 侵蚀噪声保留。噪声采用 MIT 许可，来源见 [CloudNoise](ThirdPartyNotices/CloudNoise.md)。云海所在的本地试验关卡仍不随仓库分发。
 
 当前桥体的 OBJ 与生成清单保存在 `Transfer_BridgeReference/`。使用带 NumPy 的普通 Python 可重新生成：
 
@@ -72,3 +72,5 @@ runpy.run_path(str(root / "Tools/finalize_bridge_connection.py"), run_name="__ma
 - MAXDESIGN-3D 的 Chinese dragon 及适配内容：见 [署名、CC BY 4.0 和修改说明](ThirdPartyNotices/MAXDESIGNChineseDragon.md)。
 - Poly Haven Kloofendal 天空环境：见 [来源说明](ThirdPartyNotices/PolyHavenKloofendal.md)。
 - 本次生成的桥体作者标记为 `Pleasant233`；该标记不授予其他原画或模型的使用权。
+
+云海场景调参：选中 `Cloud Sea Controls - TianNanGe`，在细节面板的 `Cloud Sea` 分类直接调整。外部蓝图修改该控制器的公开变量后调用 `Apply Cloud Parameters`；详情见 [云海实现](云海实现.md)。
