@@ -6,6 +6,8 @@
 
 ![当前 UE 实际渲染](Captures/ReferenceLook/Bridge_Reference_Rebuilt_4K.png)
 
+上图为早期 ReferenceLook 桥体验证图；当前风雪云海效果以仓库默认启动的 `TianNanGe_EasySnow` 关卡为准。
+
 ## 获取和打开
 
 需要先安装 [Git LFS](https://git-lfs.com/)。UE 资产、关卡和大型三维文件通过 LFS 保存；仅下载 GitHub 源码 ZIP 无法可靠取得这些资产。
@@ -17,9 +19,9 @@ cd TianNanGe-UE
 git lfs pull
 ```
 
-用 UE 5.8.3 打开根目录的 `TianNanGe.uproject`，等待首次着色器和距离场构建。默认打开 `/Game/TianNanGe/Maps/TianNanGe_ReferenceLook`。选中 `Main Camera (reference look)` 并 Pilot 查看参考构图；使用 `Lit` 显示完整材质，`Lighting Only` 显示光照白模。
+用 UE 5.8.3 打开根目录的 `TianNanGe.uproject`，等待首次着色器和距离场构建。默认打开当前风雪云海场景 `/Game/TianNanGe/EasySnowIntegration/Maps/TianNanGe_EasySnow`，其中保存了天空、积雪、风雪、云海控制器和相机参数。选中主相机并 Pilot 查看构图；使用 `Lit` 显示完整材质，`Lighting Only` 显示光照白模。
 
-工程同时保留首次迁移的 `/Game/TianNanGe/Maps/TianNanGe_Main`。已有 UE 资产可以直接打开，无需安装 Unity、Blender 或重新运行导入脚本。
+工程同时保留 `/Game/TianNanGe/Maps/TianNanGe_ReferenceLook` 和首次迁移的 `/Game/TianNanGe/Maps/TianNanGe_Main`。完成 `git lfs pull` 后，当前场景及其依赖可直接打开，无需安装 Unity、Blender 或重新运行导入脚本。
 
 ## 当前内容
 
@@ -34,9 +36,9 @@ git lfs pull
 
 `Tools/` 内主要为 UE 编辑器 Python，`TianNanGeExport.cs` 为 Unity 导出入口。项目启用了引擎内置的 `PythonScriptPlugin` 和 `EditorScriptingUtilities`，没有额外 C++ 模块。
 
-本分支还同步了本机 EasySnow 风雪与表面积雪、Chaotic Skies II 天空替换及 `SkyRotationDegrees` 旋转参数的集成脚本，以及 Lumen 缓存曝光范围修复。具体配置、操作入口和验证记录见 [EasySnow 接入说明](EasySnow接入说明.md)。用户提供的商业资源包及依赖它们的 `/Game/TianNanGe/EasySnowIntegration` 试验关卡没有上传；克隆仓库后默认仍打开上文的 ReferenceLook 关卡，不会直接获得本机最新风雪场景。使用可选工具前，需要自行准备相应资源和本地试验关卡；历史调试脚本不能按文件名顺序批量运行。
+当前场景及 `/Game/TianNanGe/EasySnowIntegration` 自定义资产已纳入 Git LFS，并同步了它们实际引用的 EasySnow 风雪、表面积雪和 Chaotic Skies II 天空依赖；资源来源见 [场景资源说明](ThirdPartyNotices/SceneDependencies.md)。天空保留 `SkyRotationDegrees` 旋转参数，Lumen 缓存曝光修复也随配置同步。具体调节入口见 [EasySnow 接入说明](EasySnow接入说明.md)。历史调试和重建脚本不能按文件名顺序批量运行，日常打开保存的关卡即可。
 
-体积云使用原生 HeterogeneousVolume 连续云海，通过场景中的 `BP_CloudSeaController` 分组参数调整高度、密度、形态、流动、避让和颜色，并写入 `MI_CloudSea_Layer` 派生的动态实例，见 [云海实现](云海实现.md)。本轮同步控制器、密度倍率上限20、确定性采样与分层修正，以及云表面出现云下模型硬轮廓的雾光合成修正。旧云团 Actor、材质和生成脚本已清理，共用的 128³ 主形状和 32³ 侵蚀噪声保留。噪声采用 MIT 许可，来源见 [CloudNoise](ThirdPartyNotices/CloudNoise.md)。云海所在的本地试验关卡仍不随仓库分发。
+体积云使用原生 HeterogeneousVolume 连续云海，通过场景中的 `BP_CloudSeaController` 分组参数调整高度、密度、形态、流动、避让和颜色，并写入 `MI_CloudSea_Layer` 派生的动态实例，见 [云海实现](云海实现.md)。已同步控制器、密度倍率上限20、确定性采样与分层修正，以及云表面出现云下模型硬轮廓的雾光合成修正。旧云团 Actor、材质和生成脚本已清理，共用的 128³ 主形状和 32³ 侵蚀噪声保留。噪声采用 MIT 许可，来源见 [CloudNoise](ThirdPartyNotices/CloudNoise.md)。场景依赖清单和资产 SHA256 位于 `SourceAssets/SceneDependencies/TianNanGe_EasySnow.json`。
 
 当前桥体的 OBJ 与生成清单保存在 `Transfer_BridgeReference/`。使用带 NumPy 的普通 Python 可重新生成：
 

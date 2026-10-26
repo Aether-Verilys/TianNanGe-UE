@@ -42,10 +42,60 @@ Thumbs.db
 /Tools/probe.obj
 /Content/MigrationProbe/
 
-# User-supplied EasySnow package and local integration trial (not redistributed)
-/Content/EasySnow/
-/Content/TianNanGe/EasySnowIntegration/
-/Content/Chaotic_Skies_II/
+# Optional vendor content stays local; include the audited scene dependencies below.
+/Content/EasySnow/**
+!/Content/EasySnow/**/
+/Content/Chaotic_Skies_II/**
+!/Content/Chaotic_Skies_II/**/
+# Current scene vendor dependencies; see SourceAssets/SceneDependencies/TianNanGe_EasySnow.json.
+!/Content/Chaotic_Skies_II/Meshes/SM_Skybox_Mesh.uasset
+!/Content/Chaotic_Skies_II/Textures/Flowmap/T_flowmap_chaoticskies_II_01.uasset
+!/Content/Chaotic_Skies_II/Textures/Flowmap/T_flowmap_chaoticskies_II_04.uasset
+!/Content/Chaotic_Skies_II/Textures/Skies/T_chaotic_sky_II_01.uasset
+!/Content/Chaotic_Skies_II/Textures/Skies/T_chaotic_sky_II_04.uasset
+!/Content/EasySnow/Blueprints/BP_EasySnow.uasset
+!/Content/EasySnow/Blueprints/BP_EasySnowMask.uasset
+!/Content/EasySnow/Materials/Functions/MF_WF_AlphaOverDistance.uasset
+!/Content/EasySnow/Materials/Functions/MF_WF_SnowGlimmer.uasset
+!/Content/EasySnow/Materials/Functions/MF_WF_WindDirection.uasset
+!/Content/EasySnow/Materials/Functions/MF_WF_WorldSnow.uasset
+!/Content/EasySnow/Materials/Masters/M_niagaraDriftingSnow_01.uasset
+!/Content/EasySnow/Materials/Masters/M_niagaraSnow.uasset
+!/Content/EasySnow/Materials/Masters/M_niagaraSnowSprite.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_01.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_02.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_03.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_04.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_05.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_06.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_07.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_08.uasset
+!/Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_09.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_01.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_02.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_03.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_04.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_05.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_06.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_07.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_08.uasset
+!/Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_09.uasset
+!/Content/EasySnow/Niagara/N_EasySnow_BP.uasset
+!/Content/EasySnow/System/MP_WF_WorldData.uasset
+!/Content/EasySnow/System/Presets/BP_EasySnow_Presets.uasset
+!/Content/EasySnow/System/WF_Gravity.uasset
+!/Content/EasySnow/System/WF_ScaleSpriteSizeBySpeed.uasset
+!/Content/EasySnow/System/WF_WindTurbulent.uasset
+!/Content/EasySnow/Textures/systemTextures/T_BP_EasySnowIcon.uasset
+!/Content/EasySnow/Textures/systemTextures/T_BP_snowMaskIcon.uasset
+!/Content/EasySnow/Textures/systemTextures/T_cloudMask_01_N.uasset
+!/Content/EasySnow/Textures/systemTextures/T_noise_01_N.uasset
+!/Content/EasySnow/Textures/systemTextures/T_noise_02_M.uasset
+!/Content/EasySnow/Textures/systemTextures/T_snowMask_01_M.uasset
+!/Content/EasySnow/Textures/systemTextures/T_snowSprite_01_N.uasset
+!/Content/EasySnow/Textures/systemTextures/T_snowTextures_packed_M_01.uasset
+!/Content/EasySnow/Textures/systemTextures/T_snowTile_01_N.uasset
+!/Content/EasySnow/Textures/systemTextures/T_softCloud_d_01.uasset
 
 # Keep only reviewed captures, not every diagnostic iteration.
 /Captures/*

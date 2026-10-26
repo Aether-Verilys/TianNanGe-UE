@@ -1,9 +1,9 @@
-# EasySnow 本地场景
+# EasySnow 场景
 
 当前试验关卡：`/Game/TianNanGe/EasySnowIntegration/Maps/TianNanGe_EasySnow`。
 原来的 `TianNanGe_ReferenceLook` 和 `TianNanGe_Main` 关卡未改，文件 SHA256 已验证与接入前相同。
 
-用户提供的 UE 5.4 EasySnow 内容已在本机 UE 5.8.3 加载、运行和渲染验证。原始资源仍保存在 E: 下载目录；工程里的 `/Game/EasySnow` 保留原始引用路径。来源为 William Faucher 的 [EasySnow](https://www.fab.com/listings/4fda5b2e-c44d-4df5-b7e2-afb7f2d6ed35?lang=en)。资源包及依赖它的试验关卡已加入 `.gitignore`，本轮未上传。
+用户提供的 UE 5.4 EasySnow 内容已在本机 UE 5.8.3 加载、运行和渲染验证。原始资源仍保存在 E: 下载目录；工程里的 `/Game/EasySnow` 保留原始引用路径。来源为 William Faucher 的 [EasySnow](https://www.fab.com/listings/4fda5b2e-c44d-4df5-b7e2-afb7f2d6ed35?lang=en)。2026-10-26 起，当前场景、自定义集成资产及它们实际引用的资源依赖纳入 Git LFS，默认启动地图也已切换至此场景。具体范围见 [场景资源说明](ThirdPartyNotices/SceneDependencies.md)。
 
 ## 当前配置：细密飘雪、表面积雪与小幅几何位移，关闭碰撞
 
@@ -57,7 +57,7 @@
 - 备份：`Backups/ChaoticSky_20261020/TianNanGe_EasySnow.umap`；安装记录：`Saved/ChaoticSkies/installed.json`。
 - 新预览：`Captures/ChaoticWinterSky04_Clouds_Preview.mp4`；静帧：`Captures/ReferenceLook/Chaotic_Winter_Sky_04.png`。
 
-本轮代码和说明通过 `feat/easysnow-integration` 分支同步。EasySnow、Chaotic Skies II 资源包及依赖它们的本机试验关卡已加入 `.gitignore`，不随代码推送；上文 `Saved/`、`Backups/`、新渲染预览也仅在本机存在。
+代码和说明已合并到 `main`。当前试验关卡及依赖现已纳入同步，`Saved/`、`Backups/` 和临时渲染预览继续仅在本机保留；不需要运行历史安装脚本才能打开已保存场景。
 
 ## 脚本用途与前置数据
 

@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 LIVE=ROOT/'Tools/Live'
 LIVE.mkdir(exist_ok=True)
-requested_map=os.environ.get('TIANNANGE_EDITOR_MAP','/Game/TianNanGe/Maps/TianNanGe_ReferenceLook')
+requested_map=os.environ.get('TIANNANGE_EDITOR_MAP','/Game/TianNanGe/EasySnowIntegration/Maps/TianNanGe_EasySnow')
 if not u.get_editor_subsystem(u.UnrealEditorSubsystem).get_editor_world().get_path_name().startswith(requested_map+'.'):
     u.get_editor_subsystem(u.LevelEditorSubsystem).load_level(requested_map)
 state={'last':None,'running':False}

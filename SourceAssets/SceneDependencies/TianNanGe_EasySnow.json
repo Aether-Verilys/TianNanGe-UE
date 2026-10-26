@@ -1,0 +1,1859 @@
+{
+  "scene": "/Game/TianNanGe/EasySnowIntegration/Maps/TianNanGe_EasySnow",
+  "package_roots": [
+    "/Game/TianNanGe/EasySnowIntegration/Maps/TianNanGe_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_000_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_006_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_007_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_008_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_009_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_010_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_011_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_012_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_013_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_014_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_ColdTimber_SnowTop_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_PowderSnow_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_WeatheredBridgeTimber_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_000_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_006_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_007_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_008_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_009_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_010_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_011_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_012_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_013_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_014_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_ColdTimber_SnowTop_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_PowderSnow_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Materials/M_WeatheredBridgeTimber_EasySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_Camera_Restored_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_5000",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Applied",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Clouds",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Final",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Visible",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudControls_20261023",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Dense_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Dense_Final_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_DensityOnly_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Density_Before_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Final",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Final_Low",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Heterogeneous_Test",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_Dense_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_Surface_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_TrialA_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Lighting_Off",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_LitVolume_V1",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_LitVolume_V2",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Native_All",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Native_Refined",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_After_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_Before_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_ScaleFixed_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Opacity_Before_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Raised_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Reference_Far_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Reference_MainTrial_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Rollback_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scatter_Before_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scatter_Trial_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scattered_Final_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_Before_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_Final_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialA_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialB_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialC_20261022",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shadows_Off",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_V1",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_V2",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_VolumeDiagnostic",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowFineDense",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowFineDenseFinal",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowMotion",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowStronger",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_FineSnow_GeometrySnow",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ManualFocus_After",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ManualFocus_Before",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_SkyRotation_0",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_SkyRotation_90",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_SurfaceSnow_After",
+    "/Game/TianNanGe/EasySnowIntegration/Preview/LS_SurfaceSnow_Before",
+    "/Game/TianNanGe/EasySnowIntegration/Skies/MI_Chaotic_WinterSky_04",
+    "/Game/TianNanGe/EasySnowIntegration/Skies/M_Chaotic_WinterSky",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_006_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_007_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_008_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_009_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_010_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_011_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_012_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_013_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_014_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_015_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_006_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_007_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_008_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_009_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_010_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_011_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_012_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_013_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_014_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_015_SurfaceSnow_Geometry",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_006_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_007_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_008_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_009_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_010_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_011_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_012_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_013_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_014_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_015_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_ColdTimber_SnowTop_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_WeatheredBridgeTimber_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_006_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_007_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_008_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_009_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_010_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_011_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_012_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_013_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_014_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_015_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_ColdTimber_SnowTop_SurfaceSnow",
+    "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_WeatheredBridgeTimber_SurfaceSnow"
+  ],
+  "game_packages": 261,
+  "files": [
+    {
+      "path": "Content/Chaotic_Skies_II/Meshes/SM_Skybox_Mesh.uasset",
+      "package": "/Game/Chaotic_Skies_II/Meshes/SM_Skybox_Mesh",
+      "bytes": 259394,
+      "sha256": "623ff5d0c659cc100b3ec60d7b47676ca3124b3897c5fa4750ce426d56792044"
+    },
+    {
+      "path": "Content/Chaotic_Skies_II/Textures/Flowmap/T_flowmap_chaoticskies_II_01.uasset",
+      "package": "/Game/Chaotic_Skies_II/Textures/Flowmap/T_flowmap_chaoticskies_II_01",
+      "bytes": 960593,
+      "sha256": "e3fc8ea83d1eba1189c86f1d5ab950773f69b6d9f5691f2fd5021e64947f6abf"
+    },
+    {
+      "path": "Content/Chaotic_Skies_II/Textures/Flowmap/T_flowmap_chaoticskies_II_04.uasset",
+      "package": "/Game/Chaotic_Skies_II/Textures/Flowmap/T_flowmap_chaoticskies_II_04",
+      "bytes": 694308,
+      "sha256": "e9113f82152644950e89287bc2ac4bd8ec41dda5cce42ba232ab276b1ebc74d7"
+    },
+    {
+      "path": "Content/Chaotic_Skies_II/Textures/Skies/T_chaotic_sky_II_01.uasset",
+      "package": "/Game/Chaotic_Skies_II/Textures/Skies/T_chaotic_sky_II_01",
+      "bytes": 19647384,
+      "sha256": "4ebdae1bfa253861198e2c13817f6a3d5d16d6a6a85d89acba2008837905a34b"
+    },
+    {
+      "path": "Content/Chaotic_Skies_II/Textures/Skies/T_chaotic_sky_II_04.uasset",
+      "package": "/Game/Chaotic_Skies_II/Textures/Skies/T_chaotic_sky_II_04",
+      "bytes": 9989375,
+      "sha256": "feac1af964146205b7e6552be24fce64278a322ecf1678f390002c4c17f6713c"
+    },
+    {
+      "path": "Content/EasySnow/Blueprints/BP_EasySnow.uasset",
+      "package": "/Game/EasySnow/Blueprints/BP_EasySnow",
+      "bytes": 968498,
+      "sha256": "47053819746aa31d01f3e4e576cc45ce46f9a5b98c7ee662f5c6395af91244f7"
+    },
+    {
+      "path": "Content/EasySnow/Blueprints/BP_EasySnowMask.uasset",
+      "package": "/Game/EasySnow/Blueprints/BP_EasySnowMask",
+      "bytes": 100216,
+      "sha256": "a4003678175b6914b34c4adae10c0e1786a508a5c224f5757bb4b039acb26db7"
+    },
+    {
+      "path": "Content/EasySnow/Materials/Functions/MF_WF_AlphaOverDistance.uasset",
+      "package": "/Game/EasySnow/Materials/Functions/MF_WF_AlphaOverDistance",
+      "bytes": 10009,
+      "sha256": "0ddf5a3fee38e919cb9de9a9ecd4a7d177229e192f5c7e0be2d3e1209c5bab97"
+    },
+    {
+      "path": "Content/EasySnow/Materials/Functions/MF_WF_SnowGlimmer.uasset",
+      "package": "/Game/EasySnow/Materials/Functions/MF_WF_SnowGlimmer",
+      "bytes": 27597,
+      "sha256": "84cb4cd44aa6cc59c338befc27e32e4e1e7470f6e0d18fdac9f110bcb9697892"
+    },
+    {
+      "path": "Content/EasySnow/Materials/Functions/MF_WF_WindDirection.uasset",
+      "package": "/Game/EasySnow/Materials/Functions/MF_WF_WindDirection",
+      "bytes": 24122,
+      "sha256": "d7a532b4a3696612000d233f8cfc27c7f1c938e43f54b2088ea5e11eca4254f9"
+    },
+    {
+      "path": "Content/EasySnow/Materials/Functions/MF_WF_WorldSnow.uasset",
+      "package": "/Game/EasySnow/Materials/Functions/MF_WF_WorldSnow",
+      "bytes": 106651,
+      "sha256": "7ad68ad73c69f39f3c435eecff4a527ab1b60258aa08fccd234c90ab06e52794"
+    },
+    {
+      "path": "Content/EasySnow/Materials/Masters/M_niagaraDriftingSnow_01.uasset",
+      "package": "/Game/EasySnow/Materials/Masters/M_niagaraDriftingSnow_01",
+      "bytes": 46721,
+      "sha256": "87b15cdfe9a81c3fea2a72f18571b2dbb05543ee64b4aaea6c1638ec8cba76eb"
+    },
+    {
+      "path": "Content/EasySnow/Materials/Masters/M_niagaraSnow.uasset",
+      "package": "/Game/EasySnow/Materials/Masters/M_niagaraSnow",
+      "bytes": 41255,
+      "sha256": "030bfd1de9df183f7a1dc7f02f8aceababd250a8109208c2e97a784fbbd3570d"
+    },
+    {
+      "path": "Content/EasySnow/Materials/Masters/M_niagaraSnowSprite.uasset",
+      "package": "/Game/EasySnow/Materials/Masters/M_niagaraSnowSprite",
+      "bytes": 29130,
+      "sha256": "bb9ef99c1011763233f2ed7ce173df2942165268f6312fc1b99b34fbcd90bb43"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_01.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_01",
+      "bytes": 62318,
+      "sha256": "dab5ac0b6b1a8d5f0a904606cbacea9600da860ad3eb7aa06cb44a9607c18dcf"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_02.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_02",
+      "bytes": 61205,
+      "sha256": "3ac4d5929f11f89991193cf2f14cc3b7e5a7a34976c0c33c9ba279cb123c0c63"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_03.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_03",
+      "bytes": 62801,
+      "sha256": "a658dfcd79d5c22833e27af4aaf1aeb07499892ec236a7f87b4185a3dc0277b6"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_04.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_04",
+      "bytes": 61398,
+      "sha256": "57034411f1ddb4eda166f5e625e99f3e1363cc0b6e56bdebc62d75ab3d4a4741"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_05.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_05",
+      "bytes": 173292,
+      "sha256": "ea797388704824a0d03b76f80d58eb4efd52367b07571009539a13b7280b29e0"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_06.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_06",
+      "bytes": 156043,
+      "sha256": "0aa0dbd26988873de588033b1df17059bd94692ac02fd218a731c11a5d51a9c3"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_07.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_07",
+      "bytes": 87734,
+      "sha256": "f437a2cab1fe8caa6e78b3471d0447b189ab21c2736108e6db6d7f4e0ef48d4f"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_08.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_08",
+      "bytes": 63464,
+      "sha256": "28c1cd0d8be42f70891689fe624a86f239e188ea954fffe75c1545389cc45f03"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/high/SM_snowflakes_high_09.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/high/SM_snowflakes_high_09",
+      "bytes": 71150,
+      "sha256": "ed3edae021837c9c30b3ea25b2871e5871ea7143defb2fe17e9502fece755adc"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_01.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_01",
+      "bytes": 44769,
+      "sha256": "c87f72b0ec6d77f2e680c86821da5e6fe9e92a1dc906a4ca1530b353d79bcf23"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_02.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_02",
+      "bytes": 38361,
+      "sha256": "3a1e3513b54308bcbd6c9e64f58c641eff76d6f40f173f07992b5d27fa08d560"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_03.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_03",
+      "bytes": 45814,
+      "sha256": "7bee2896b19bf37bee9ce1be56ce33f96301ca1a53a6cee5ebf86de09e778a5b"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_04.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_04",
+      "bytes": 48444,
+      "sha256": "8ccde80ba5980634f8f68efdcd2fa3ff8bb5cfe1e0aeadc89998252fbea6c9ca"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_05.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_05",
+      "bytes": 47834,
+      "sha256": "a2650179e4ec4637370d860dc3b67c2e48f6255fcd5eee533a8daa7d1bf23df5"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_06.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_06",
+      "bytes": 47862,
+      "sha256": "3b93fa69ed3b9fac786dd5eb1376d7ad1012ba9ab4622807acf33d94989674f7"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_07.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_07",
+      "bytes": 44960,
+      "sha256": "93b01d3280fed2ecdcf46fe91bca5ec43780f715190b4eef396b8180f5783a2a"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_08.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_08",
+      "bytes": 45322,
+      "sha256": "f95c97616b8fde69889b0686d9ecf0598597a8af251b545e2c4efc69c845ac52"
+    },
+    {
+      "path": "Content/EasySnow/Models/snowflakes/low/SM_snowflakes_low_09.uasset",
+      "package": "/Game/EasySnow/Models/snowflakes/low/SM_snowflakes_low_09",
+      "bytes": 47449,
+      "sha256": "f035d2c8ba4d9a0f2a0de8248ad0778881e1028a77a665679f3b27816c98bca4"
+    },
+    {
+      "path": "Content/EasySnow/Niagara/N_EasySnow_BP.uasset",
+      "package": "/Game/EasySnow/Niagara/N_EasySnow_BP",
+      "bytes": 2337028,
+      "sha256": "a36db1909445c9398c23af0a9939757b82ad09cc0d57f8fc7b06078374f4329c"
+    },
+    {
+      "path": "Content/EasySnow/System/MP_WF_WorldData.uasset",
+      "package": "/Game/EasySnow/System/MP_WF_WorldData",
+      "bytes": 4709,
+      "sha256": "0a2327fffef1196bef0af1761cf8c2d28965b32dc47bf9b92238b32aed1affd9"
+    },
+    {
+      "path": "Content/EasySnow/System/Presets/BP_EasySnow_Presets.uasset",
+      "package": "/Game/EasySnow/System/Presets/BP_EasySnow_Presets",
+      "bytes": 32486,
+      "sha256": "cebbed644b21d709e4daed3d33a59d667ed12ee87078ff6267eb1f3894f5e442"
+    },
+    {
+      "path": "Content/EasySnow/System/WF_Gravity.uasset",
+      "package": "/Game/EasySnow/System/WF_Gravity",
+      "bytes": 61994,
+      "sha256": "731cc96e0da2684e2678bb6338873277d87081090e99231e085e02f5d3426255"
+    },
+    {
+      "path": "Content/EasySnow/System/WF_ScaleSpriteSizeBySpeed.uasset",
+      "package": "/Game/EasySnow/System/WF_ScaleSpriteSizeBySpeed",
+      "bytes": 85846,
+      "sha256": "60f9a01e259255310c8195cc5bf99dae52a3ba637997f54202c8fd9e6779e0a7"
+    },
+    {
+      "path": "Content/EasySnow/System/WF_WindTurbulent.uasset",
+      "package": "/Game/EasySnow/System/WF_WindTurbulent",
+      "bytes": 383768,
+      "sha256": "c9bff574602dddcb584606cdc52618d593eb6514f78240645c8da5f016c99eba"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_BP_EasySnowIcon.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_BP_EasySnowIcon",
+      "bytes": 183601,
+      "sha256": "87cb9da327c2d55fe011052b29d8ee033d4462f30550eb4e0e9689bd4ac01107"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_BP_snowMaskIcon.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_BP_snowMaskIcon",
+      "bytes": 85422,
+      "sha256": "85fbc59ac7a2d82f6f0e81c63d5e78c3fb05f24534e06b19bf6c5db4da95445b"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_cloudMask_01_N.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_cloudMask_01_N",
+      "bytes": 190764,
+      "sha256": "b0c3fc8b3ecf0e7abc5adac766d0524ec33e8994b6e8b969a40e92965b1cdcb0"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_noise_01_N.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_noise_01_N",
+      "bytes": 140221,
+      "sha256": "2b7ad7827106b6e96728506c49edfd8511a7e1c53be566890d668feac52fac95"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_noise_02_M.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_noise_02_M",
+      "bytes": 75124,
+      "sha256": "f0fc7436ce34094894e9ad7b5fa94b6f47442fc93f915f2747d871cfd97ba45a"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_snowMask_01_M.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_snowMask_01_M",
+      "bytes": 1441010,
+      "sha256": "bb4f296fcf04cfe969fc9324f163319c6027abee32d347a6e03c5f77ae883d5a"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_snowSprite_01_N.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_snowSprite_01_N",
+      "bytes": 471846,
+      "sha256": "ae73bc4578fb59a61c33b7eb23efaf5ecf70052aa4c148623593113335692069"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_snowTextures_packed_M_01.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_snowTextures_packed_M_01",
+      "bytes": 287643,
+      "sha256": "c7309fc96ddab9671d7e0c4ba00084f75a0457db8de750009fa3f5f07ecdec5a"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_snowTile_01_N.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_snowTile_01_N",
+      "bytes": 12175331,
+      "sha256": "c33c0c5e524c15cad576ab825c91554225f12df3855045f1827ba3201a78616e"
+    },
+    {
+      "path": "Content/EasySnow/Textures/systemTextures/T_softCloud_d_01.uasset",
+      "package": "/Game/EasySnow/Textures/systemTextures/T_softCloud_d_01",
+      "bytes": 88621,
+      "sha256": "1a31f366813b704e5f4aefe8c00369f0e81f38d8650944954214576043f3d220"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Materials/M_OpaqueFrostedIce.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Materials/M_OpaqueFrostedIce",
+      "bytes": 10472,
+      "sha256": "0e445323e419362e2f23587d4792edb0e0cbfc19527e582ebd0855de4a06c65c"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Materials/M_WeatheredBridgeTimber.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Materials/M_WeatheredBridgeTimber",
+      "bytes": 11265,
+      "sha256": "421539bee7a540d9a38e3de846564e1d5b314b96b103197b0adcdfcaf0892467"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Meshes/SM_Bridge_Icicles.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Icicles",
+      "bytes": 522100,
+      "sha256": "5e3b1ce5fcddcb70fdfa65ae703de58180f8e66520b853372448572ef1bf5b0e"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Caps.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Caps",
+      "bytes": 1678056,
+      "sha256": "2f9b9beba48b9cf625b129fea0125ab94ff061cc1396933882c846b99467bcc4"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Deck.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Deck",
+      "bytes": 785543,
+      "sha256": "39fb71b12899f45e3eaccddd51854441c9bc370e14af5cf1ccbb9d5b4c65a9f8"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Rails.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Rails",
+      "bytes": 3340572,
+      "sha256": "feae48a54ef29f35102e1027ef5645542077ce397faffb59d8b748491446208c"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Meshes/SM_Bridge_Structure.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Structure",
+      "bytes": 478691,
+      "sha256": "0c5bf1c187792f66661f1b211579db2715524f609e1d8ab93d19ff4d32e217b9"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Posts.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Posts",
+      "bytes": 94552,
+      "sha256": "d10c903556a5ab1d9edbc34ae3ffef65509134800e768b2e4ed4f7b8ddbe29c5"
+    },
+    {
+      "path": "Content/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Rails.uasset",
+      "package": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Rails",
+      "bytes": 3031031,
+      "sha256": "a3ab727da0e096cafcd872e7d462da6990d314696f1ab899480ba7c740353346"
+    },
+    {
+      "path": "Content/TianNanGe/CloudSea/Blueprints/BP_CloudSeaController.uasset",
+      "package": "/Game/TianNanGe/CloudSea/Blueprints/BP_CloudSeaController",
+      "bytes": 155448,
+      "sha256": "46e1d36d5c199943d1b406c281c58f79afe5d721680978238af0216b65e3e77a"
+    },
+    {
+      "path": "Content/TianNanGe/CloudSea/Materials/MI_CloudSea_Layer.uasset",
+      "package": "/Game/TianNanGe/CloudSea/Materials/MI_CloudSea_Layer",
+      "bytes": 15042,
+      "sha256": "dc5889a3cbd2b19fe245409f5b80d59ce07c0728e9d65d88f40d96e6e9287ab8"
+    },
+    {
+      "path": "Content/TianNanGe/CloudSea/Materials/M_CloudSea_Layer.uasset",
+      "package": "/Game/TianNanGe/CloudSea/Materials/M_CloudSea_Layer",
+      "bytes": 29894,
+      "sha256": "8f6f7925b8fd68a8d2435de6b35a5587fd74c4c87b3ef1405d66296d021fe511"
+    },
+    {
+      "path": "Content/TianNanGe/CloudSea/Noise/T_noiseErosion_Atlas.uasset",
+      "package": "/Game/TianNanGe/CloudSea/Noise/T_noiseErosion_Atlas",
+      "bytes": 100497,
+      "sha256": "a684c3d72821814083cec318517a20dfa454d7637a70d21a51ef16dbbc8e995f"
+    },
+    {
+      "path": "Content/TianNanGe/CloudSea/Noise/T_noiseShape_Atlas.uasset",
+      "package": "/Game/TianNanGe/CloudSea/Noise/T_noiseShape_Atlas",
+      "bytes": 6491561,
+      "sha256": "a4e6f5c1a0a756dade2759a2f780b7b91a27ea4028e3da49f30384eb6e39c3dc"
+    },
+    {
+      "path": "Content/TianNanGe/CloudSea/Noise/VT_noiseErosion.uasset",
+      "package": "/Game/TianNanGe/CloudSea/Noise/VT_noiseErosion",
+      "bytes": 95092,
+      "sha256": "ed30b0211da8cf591d5d9cdaea918dc9f6911617cb0caa67b380926ef30313eb"
+    },
+    {
+      "path": "Content/TianNanGe/CloudSea/Noise/VT_noiseShape.uasset",
+      "package": "/Game/TianNanGe/CloudSea/Noise/VT_noiseShape",
+      "bytes": 6415535,
+      "sha256": "4f81bf39eb1f2f7c90731594da836570765c56a6ab410ee5f35f11f1827da103"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Maps/TianNanGe_EasySnow.umap",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Maps/TianNanGe_EasySnow",
+      "bytes": 913427,
+      "sha256": "bf02eab7279aaac6b085ee552703ea481cc8eeb2655b0b1aef76fbaf11218288"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_000_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_000_EasySnow",
+      "bytes": 8740,
+      "sha256": "3e245ca64e3d1c89bb3aade7c7e7d6809ca4b21bc796c90171fdbdfe541c0059"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_006_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_006_EasySnow",
+      "bytes": 8788,
+      "sha256": "7dae57d27992ccbd9fc439cd3f9ae485834e0f68d9be95da879ae5075ec0b897"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_007_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_007_EasySnow",
+      "bytes": 8788,
+      "sha256": "eeb6b0b95f931ae60012729aa39888f0bae2caa8cad3b6958b1adb6aacbbfaaa"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_008_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_008_EasySnow",
+      "bytes": 8788,
+      "sha256": "ec5d6e7d4f890ef1786f6bea2fa4bc3f28e50d8fdacd6b010badfa9604d6054e"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_009_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_009_EasySnow",
+      "bytes": 8788,
+      "sha256": "227b890029880ffcfa4acd8952df75eac653797c7faa91696ac1e3650b9c30ac"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_010_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_010_EasySnow",
+      "bytes": 8788,
+      "sha256": "a958a719d7a652ff98367cae4c1c2d1a7d6674b27a488274d36e18df0c1994c5"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_011_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_011_EasySnow",
+      "bytes": 8788,
+      "sha256": "0c11c8ce5bde63b5f3edfb4cf7357fde6b0ee476c654f7a2b8f285d3dc770188"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_012_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_012_EasySnow",
+      "bytes": 8788,
+      "sha256": "28a5840945a907a100f507c10d15c19187bd1e67d36ff175c020b8c878f1ad76"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_013_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_013_EasySnow",
+      "bytes": 8788,
+      "sha256": "3444754190970eec0abf423fccb8420c5635d8becbdde783e48e103ca5ee92ae"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_014_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_014_EasySnow",
+      "bytes": 8788,
+      "sha256": "c1ddaa379267f671024d24670eceede5137a3652164e6c82844399569732a884"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_ColdTimber_SnowTop_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_ColdTimber_SnowTop_EasySnow",
+      "bytes": 8890,
+      "sha256": "8e2e5a1bc3b95e7af5993525c5728a73fb2bba6ae0399fa0215dd189c0af63c6"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_PowderSnow_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_PowderSnow_EasySnow",
+      "bytes": 8826,
+      "sha256": "20401d77c1540e2be05cff24c85a1912dfdea816f5ce83750c14b65f7d24d16a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/MI_M_WeatheredBridgeTimber_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/MI_M_WeatheredBridgeTimber_EasySnow",
+      "bytes": 8920,
+      "sha256": "00d7ab5410a694fb873fad6ac6a1cbfe8a98cc3c520d49eee91e78038890846e"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_000_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_000_EasySnow",
+      "bytes": 26018,
+      "sha256": "2c6cdfcb5be2b455af14b67b5cce86d165c4fc18c672fc679a21796672022c6a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_006_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_006_EasySnow",
+      "bytes": 37879,
+      "sha256": "0751ef3e691c98535dcdf5b7bce97f82fec972723f7cabc0e3db557fff2a3bbf"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_007_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_007_EasySnow",
+      "bytes": 37037,
+      "sha256": "966772db923e182809dfd58e562a8378f46de78d419462591dec44a9eda0b113"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_008_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_008_EasySnow",
+      "bytes": 35545,
+      "sha256": "08f8c827f1aaa2a7e6b20d7f93f84877e131693cc475c351336af1098a700fe1"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_009_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_009_EasySnow",
+      "bytes": 35845,
+      "sha256": "33f8fccada7191994215e23a1fee88bc373f246d7de36b302a712a450d747c49"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_010_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_010_EasySnow",
+      "bytes": 35905,
+      "sha256": "78a7e43c26077154484ce64c9a83d63ebfb5dde7f8597d5af8e9713bd8b1f780"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_011_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_011_EasySnow",
+      "bytes": 36262,
+      "sha256": "72c8de1564304952c01b0cb83fec156685af1941416556d5b6ffac1d67a96ca8"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_012_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_012_EasySnow",
+      "bytes": 36842,
+      "sha256": "97eaad3b32d5ca345a67c22d74f4f55329af6a58bd2655178d896d284e7c2c70"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_013_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_013_EasySnow",
+      "bytes": 35771,
+      "sha256": "77c335f6f6941127ea544cf199b27422d613490dd55e2bf87b2f301aac930380"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_014_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_014_EasySnow",
+      "bytes": 36179,
+      "sha256": "402e910489ed46c1978ae1c77ca744b3b460d224abab8b0828697d6a0fa03192"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_ColdTimber_SnowTop_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_ColdTimber_SnowTop_EasySnow",
+      "bytes": 27307,
+      "sha256": "75331a34eb68892db2b088325d243ac33fded11991f396f7fbfd8ed23076a08a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_PowderSnow_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_PowderSnow_EasySnow",
+      "bytes": 29859,
+      "sha256": "775b561ac19626a297263f4b9fd3a3ae2d1d575c683954dc5bdb8cb27b08d04a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Materials/M_WeatheredBridgeTimber_EasySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Materials/M_WeatheredBridgeTimber_EasySnow",
+      "bytes": 26993,
+      "sha256": "067554b68a9f6ea9a4dc4ebf026600fe7c2488699143e28c3e56d5e5ca667260"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_Camera_Restored_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_Camera_Restored_20261022",
+      "bytes": 7448,
+      "sha256": "80645f7ec1aa53b8bee093c6715eb8e21c4c09233c70c78a483354e01ca31fae"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04",
+      "bytes": 7436,
+      "sha256": "36fb0e5b501192e3eca23de15ba23cb8f52b1823b7b61d331ff1509d565c196a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_5000.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_5000",
+      "bytes": 7451,
+      "sha256": "a99736cdee691e067f73d5ce2b5fb1c471de6fc350f287b2029c6b288519ae08"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Applied.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Applied",
+      "bytes": 7476,
+      "sha256": "9f14143167b85248347d4ee98b0f62df7149b4de6df21055a104b930721fcda5"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Clouds.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Clouds",
+      "bytes": 7471,
+      "sha256": "b9bcb4125e7cb5888f281d1b6bb509ae92ef505bd3d38ed1df51c179f4bcaa42"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Final.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Final",
+      "bytes": 7466,
+      "sha256": "9c69b78ba33b0c9108e8886093346d50368c974e94820419d6f5c0c2f20514e8"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Visible.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ChaoticWinterSky04_Visible",
+      "bytes": 7476,
+      "sha256": "74584e8209986fb17d05428ac661888bc0d6f4676eb0c08789e3a6374e8d28e9"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudControls_20261023.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudControls_20261023",
+      "bytes": 7438,
+      "sha256": "f7fd81fd6d5ac4d2b8a7adf5e9821049d86d6e8017fc81cffbe8ce4bc94aa453"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Dense_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Dense_20261022",
+      "bytes": 7443,
+      "sha256": "b27c5cfedeaa53c4c9ce736af70383d46d925c7109f1f62ca7f82ea73edccb0f"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Dense_Final_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Dense_Final_20261022",
+      "bytes": 7473,
+      "sha256": "2596dd10e9d5b3eaefd71fdfed32307d6b64a87cddadf880aa0e4ef60f198eab"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_DensityOnly_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_DensityOnly_20261022",
+      "bytes": 7473,
+      "sha256": "337f8c36a36a24aa1faa4a82cd16e857519ce911e7d460be02c678be832d46a3"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Density_Before_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Density_Before_20261022",
+      "bytes": 7488,
+      "sha256": "29a484e26883af9fb3f69c435ad6891bf978045c1a31d53ce4e07ca2ac9a77d3"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Final.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Final",
+      "bytes": 7416,
+      "sha256": "ed848e657ab8b5f7e980c88e895006e0632ed2e244e65e6ae7e47df05668da9c"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Final_Low.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Final_Low",
+      "bytes": 7436,
+      "sha256": "0798460759513a3672678d67986497bd19b3b0c4409290e0a3fe168e5bf52c8c"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Heterogeneous_Test.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Heterogeneous_Test",
+      "bytes": 7481,
+      "sha256": "aa396c76229b17f8b0ffdfc0c3eaac474920f5b9e50ab7d10c6e3a555066dcff"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_Dense_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_Dense_20261022",
+      "bytes": 7473,
+      "sha256": "552e6e027cbcc88a3396c00058773913155d2ba9d884c41509ab1f318f0d63bd"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_Surface_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_Surface_20261022",
+      "bytes": 7483,
+      "sha256": "c7b828e9cd471b9a253e3ca5d261a2a5a86bf22a7fedf42aecc40d474aabaf5f"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_TrialA_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Layer_TrialA_20261022",
+      "bytes": 7478,
+      "sha256": "c366228f0cb632a522bb92dec03bf007f71281e4d61ae585f13fdbc23634b51f"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Lighting_Off.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Lighting_Off",
+      "bytes": 7451,
+      "sha256": "174a4c83582261a4902bd32e95c18546ccb7a60c667ec843375d7beb171f3abe"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_LitVolume_V1.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_LitVolume_V1",
+      "bytes": 7451,
+      "sha256": "e68b727ada78d6c2df42d40a86db2557a8d32ac5fa87b603a831e8d7c06c0c53"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_LitVolume_V2.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_LitVolume_V2",
+      "bytes": 7451,
+      "sha256": "895b44167579ea15b5b853af8393f4cb1ec9b678fbb2d66e2a38f53037ae52c9"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Native_All.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Native_All",
+      "bytes": 7441,
+      "sha256": "5908ee5a020ac0a25a52b2709eb17e53f64f50391c98c6578d08fe80fc460f11"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Native_Refined.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Native_Refined",
+      "bytes": 7461,
+      "sha256": "253409aad94701c2a97f42f5c18cd921eb7bff833c9b12c7eb5230dbbeb7215c"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_After_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_After_20261022",
+      "bytes": 7455,
+      "sha256": "eed11e9c639915db6e4051f44e6ddefcaa7cf739a2074f8bebc908db75120795"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_Before_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_Before_20261022",
+      "bytes": 7460,
+      "sha256": "3050d49e85afcb0e00ca6f86faf97ed329379029f7c5e34a7d5b0895512d03c0"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_ScaleFixed_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Near_ScaleFixed_20261022",
+      "bytes": 7480,
+      "sha256": "466e7e792a42569e944e0da8d2b9b7dc59726f676f7e16538428f6bcae3fb25a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Opacity_Before_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Opacity_Before_20261022",
+      "bytes": 7488,
+      "sha256": "bd7d668bd4131b85de5a1655d723e51e10ec725acf60c385d1273ae0c8cc5243"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Raised_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Raised_20261022",
+      "bytes": 7448,
+      "sha256": "a09921b2b9ac3c72642cc33320b57e53c9cbccfb7cf01a4af5bb62dc1a3614af"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Reference_Far_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Reference_Far_20261022",
+      "bytes": 7469,
+      "sha256": "a81d6f02a4b64a2eddebaed489014fbeedd745d1f5a9225e0645b26b2353cfcf"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Reference_MainTrial_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Reference_MainTrial_20261022",
+      "bytes": 7513,
+      "sha256": "1f1a8e4d001f05c259a124c5e333abe93a86a2dc69fb90a1e487b79ce89fea69"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Rollback_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Rollback_20261022",
+      "bytes": 7458,
+      "sha256": "dae57edf07cafa2b7121421ff731552fb696eeb317e56324034a6521f839a736"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scatter_Before_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scatter_Before_20261022",
+      "bytes": 7488,
+      "sha256": "ad4e7bb0757f847daf0fc2a5498afdb6d3b9c4db1710d926a90b6c30a8f23c32"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scatter_Trial_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scatter_Trial_20261022",
+      "bytes": 7483,
+      "sha256": "ad61de9a52fd78f536a347bda70baf33626edfe5ee101a68f869adc13df18e69"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scattered_Final_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Scattered_Final_20261022",
+      "bytes": 7493,
+      "sha256": "83a15330e75950119a316fa1e64e157c98aa826c386adff357fcab7ec4f49b59"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_Before_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_Before_20261022",
+      "bytes": 7488,
+      "sha256": "e8655435dbf945f0563d43f6bd2df91fc1ab15bbd84c4ce0336ebaa44103db41"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_Final_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_Final_20261022",
+      "bytes": 7483,
+      "sha256": "e3c8fbd5ff1326c50c9f50200f9f07cc7147845c05bc142422eedba5d4cf7f82"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialA_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialA_20261022",
+      "bytes": 7488,
+      "sha256": "c318b584efed7a4aa590faf4dc0b63721cb8a0458f60e1c47d83a456516f74fe"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialB_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialB_20261022",
+      "bytes": 7488,
+      "sha256": "79bc9b1656d77bb20a2085b277a5b2ced44b49788cf96133de668fd06306721c"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialC_20261022.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shading_TrialC_20261022",
+      "bytes": 7488,
+      "sha256": "472404f35ef67200cbc88821c6c901f3d80582ffac2461d29ec63a17a1b4d4c7"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shadows_Off.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_Shadows_Off",
+      "bytes": 7446,
+      "sha256": "fe9e5eb132eb8a194006d19d7ff904ce3c65727eaabc50de3f2319e0388f33c5"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_V1.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_V1",
+      "bytes": 7401,
+      "sha256": "bbe5092b37d9a0171597bf4729b60ad598403faa99eeecc8c538cec2f07101cf"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_V2.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_V2",
+      "bytes": 7401,
+      "sha256": "7bca815ed5b2427cc58c65da53f2af29e2ccdce0eb1a674eb265d716d56854d2"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_VolumeDiagnostic.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_CloudSea_VolumeDiagnostic",
+      "bytes": 7471,
+      "sha256": "6359aeca587da484820fcedaa8562fb3249678e460709418100e492386b17cb1"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowFineDense.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowFineDense",
+      "bytes": 7431,
+      "sha256": "234c4416243fbf6774931f8933a205bcd37c4ee8ee16446130ed25ea37fef7b0"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowFineDenseFinal.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowFineDenseFinal",
+      "bytes": 7456,
+      "sha256": "e097bdfd1dd0768062f5b4036843c709717fd3fb1219fd832ca87a38c079f63c"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowMotion.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowMotion",
+      "bytes": 10195,
+      "sha256": "5640b92d61e321ef53e76d4353964b41ab3395dd9854677b4fc9a7f6bb290e96"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowStronger.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_EasySnowStronger",
+      "bytes": 7426,
+      "sha256": "8ab3f53efc42820e2c8c97b167a661770b4bbf167ba3ad82f226a0b547f07432"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_FineSnow_GeometrySnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_FineSnow_GeometrySnow",
+      "bytes": 7451,
+      "sha256": "96f99633ddd783489b614924c6f7f4e95b1b8ebbee2d1198a9232315b2a4d5e0"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_ManualFocus_After.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ManualFocus_After",
+      "bytes": 7431,
+      "sha256": "a19ac10014581af5d0442c84887e435e5d69b6e3d6b213063e7f475950331250"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_ManualFocus_Before.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_ManualFocus_Before",
+      "bytes": 7436,
+      "sha256": "6db1cb4310af646be56e208777b15066df25f9e6fcdc2eae1874023c7b0517ee"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_SkyRotation_0.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_SkyRotation_0",
+      "bytes": 7407,
+      "sha256": "a8d35f09ea069482fa839883f08d3be86b14e344c177f4422341951ceb0e55f3"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_SkyRotation_90.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_SkyRotation_90",
+      "bytes": 7410,
+      "sha256": "0d144cae6649da3138fff147899d0dfbb5edcc3a7bf19e32b773e6b8d1ae11cf"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_SurfaceSnow_After.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_SurfaceSnow_After",
+      "bytes": 7431,
+      "sha256": "36b4f3ae87551a73713d0e89d9234d0b7d0a4076a4422897e9eea6f82afa49f3"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Preview/LS_SurfaceSnow_Before.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Preview/LS_SurfaceSnow_Before",
+      "bytes": 7436,
+      "sha256": "80f1ec671e84d42f4ac614705829c7f351356767eee249b5bb70b209e53d3a4a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Skies/MI_Chaotic_WinterSky_04.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Skies/MI_Chaotic_WinterSky_04",
+      "bytes": 10988,
+      "sha256": "5249eb2cd1590595fecc4864806a7668bc75a66a3e3b125ecde92b647972dafc"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/Skies/M_Chaotic_WinterSky.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/Skies/M_Chaotic_WinterSky",
+      "bytes": 39483,
+      "sha256": "a22dfd0036ec6c4d2488fa6cf1a8bc6d8f640f4d656cd6be7b96edc5861727b6"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_006_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_006_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "b886a05f9501eb41c9876aeac66300a33ae3b182b885a632929e0b8ec680bd9a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_007_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_007_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "68a047a70565a3bbabe1532f68889b770929b92368432badfc86b49de77f1c8d"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_008_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_008_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "f91e76bdfa62c3c6c05b08d668f663c19a1492b01301c3637bc2343fe5ddae3c"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_009_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_009_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "1a61f84502a3e61884e5c9b12bf4e5bb0a5f34b2de2129f4f192cfb6fc699f41"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_010_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_010_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "5293c307dfc9c40abf0c9f71a055c9540b603af93388e5eb6632955f3f640223"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_011_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_011_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "a17e16ea6770c2d432b162b0537f745f908a214b70d7331a45eeb02dabddf1da"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_012_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_012_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "8f530e81ba459ca00d68bc92cc5b0feff3787be3b9e049e46b46f34f26226819"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_013_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_013_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "dbaa00093ba378e6fee09ef9756fc7cfa8a7314403b564b69c7d872b7836dbe0"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_014_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_014_SurfaceSnow_Geometry",
+      "bytes": 5704,
+      "sha256": "4a2b11cc1a198a4cf8b640fc940ebe839ce023f25502153a24afafa20914615b"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_015_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/MI_M_015_SurfaceSnow_Geometry",
+      "bytes": 5656,
+      "sha256": "43e77f88b97308b6817834ceff145b60073eda1ef8117e5525d4bc3e64bc0406"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_006_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_006_SurfaceSnow_Geometry",
+      "bytes": 37381,
+      "sha256": "476370ba77dbe56ba610185733ac7bf100eb35f42f71f85a288ccfa3891c3e95"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_007_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_007_SurfaceSnow_Geometry",
+      "bytes": 38336,
+      "sha256": "aaa067e86b9d6dad36e6fb851f35ed995472f400c2f4c178ddfb0377a40219a6"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_008_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_008_SurfaceSnow_Geometry",
+      "bytes": 36874,
+      "sha256": "c87b666c22d2ba208119e4358670a3f76cf769b84e173085595bff4d9e96dd14"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_009_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_009_SurfaceSnow_Geometry",
+      "bytes": 37456,
+      "sha256": "c01a1820a6d30eedf67320ed1650f25d8b932ea6f4eaace726d7c0acfe30f6a3"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_010_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_010_SurfaceSnow_Geometry",
+      "bytes": 37171,
+      "sha256": "d4f31721ea461f3d92b6a96b4b831e996b934c695a9e040b4d1e76a3a89d078b"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_011_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_011_SurfaceSnow_Geometry",
+      "bytes": 37612,
+      "sha256": "ca90120d2e0f1d331efa426979088d7685b0754660112d191c698f229afdc209"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_012_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_012_SurfaceSnow_Geometry",
+      "bytes": 38176,
+      "sha256": "58b152d5f4cff5cf5b04220e0efb65e755b14357ccb73195dc1d79cc2caade57"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_013_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_013_SurfaceSnow_Geometry",
+      "bytes": 37077,
+      "sha256": "4c04b6319d8615c4d1131ec409c1eb2a68ac2e7fd58bd4adfede342adbcec3fb"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_014_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_014_SurfaceSnow_Geometry",
+      "bytes": 40000,
+      "sha256": "0e0b99ae46cda205baf75b1cae1badeec7c4bc5009b82238f422b47c21ea1ef3"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_015_SurfaceSnow_Geometry.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/DisplacedMaterials/M_015_SurfaceSnow_Geometry",
+      "bytes": 28174,
+      "sha256": "b1525c1ea348dad0bf4081ba4c9e4e483c26e754cee7ea869844d522ccbaf26b"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_006_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_006_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "8ae9f9cdfc70bcd199ca30122c5662f36213a0ea3594180bf7d93208d04e6cee"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_007_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_007_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "ad8edf9039badfc8fecb2f77182bf13f5f1c010fb414b1340b77c6563214f23f"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_008_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_008_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "6c9bcbc0306607fa0de4530480d241828d4907ef246cb9519e0250ca1da2dfef"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_009_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_009_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "005b28c735a842277ab5709880db5a071d501e1d07d8b8c3bd318d5a5935efd6"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_010_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_010_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "d917b3ca3723e61d4f7065d9fe34c31feabfbecc606fbefa58c253e379383a5b"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_011_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_011_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "4e4fbae104a85bb6e3ecde5ace86de44170c3e86fe4023ec21b417767357c266"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_012_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_012_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "ef85ca8d2621e75e07b65496ca1aff95f5a9132bce84595d381684133d17ca13"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_013_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_013_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "516aef714191ceef92ab96924287fcb3808e071e66437119d2bed7dee7b38efa"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_014_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_014_SurfaceSnow",
+      "bytes": 8832,
+      "sha256": "94f8d39db54b8e27a73f7e53ce25ee4b56d4bfb229ec180c2627d628e3a191bc"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_015_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_015_SurfaceSnow",
+      "bytes": 8784,
+      "sha256": "314f006b3ed44412e3f297c1798060d26d57179e11510a39fcb772bebac46bcf"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_ColdTimber_SnowTop_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_ColdTimber_SnowTop_SurfaceSnow",
+      "bytes": 8934,
+      "sha256": "f634d87def4b6b262fd2eee515a54dc32f431b5f8a7ad92420dd779ea372759a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_WeatheredBridgeTimber_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/MI_M_WeatheredBridgeTimber_SurfaceSnow",
+      "bytes": 8964,
+      "sha256": "944b87674f796950c95586d1071733e807edd4bebe6ade2b5f6501ae1c2d6f47"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_006_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_006_SurfaceSnow",
+      "bytes": 35824,
+      "sha256": "67b7bba9ba037514b21abab6cf445be710e0e91439c0bac9c315ad6bcc483a86"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_007_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_007_SurfaceSnow",
+      "bytes": 36777,
+      "sha256": "0296b9d0319a80110f2bbc07c0933f67a5703138ea194b635035decbe4e3090a"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_008_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_008_SurfaceSnow",
+      "bytes": 35307,
+      "sha256": "799373c91604209b149e3a0dc73583c75566fb6463cc04791fda864e74f6f1b2"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_009_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_009_SurfaceSnow",
+      "bytes": 35898,
+      "sha256": "416716f6d8b28adac009f027527c02c169c9eec3ae52b36c9c852092f2978639"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_010_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_010_SurfaceSnow",
+      "bytes": 35641,
+      "sha256": "515ec6512907684a4b272742ea12ea8e2da266e6decdae42bb0198bd3288a46d"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_011_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_011_SurfaceSnow",
+      "bytes": 36047,
+      "sha256": "e1fb711ae9daa13b0039ba9b9c411a91c627c602e9dae018c6bbd74820cc9235"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_012_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_012_SurfaceSnow",
+      "bytes": 36633,
+      "sha256": "31562bd138de329fa29022d04bb931ff5d9cd2255cd130eda5eb12b1315a6787"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_013_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_013_SurfaceSnow",
+      "bytes": 35530,
+      "sha256": "c9e8d8148d9794edb4eb81104b501c8f6ae650c7d7011b33028bdb88cafeb1a5"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_014_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_014_SurfaceSnow",
+      "bytes": 38448,
+      "sha256": "4c56e83e52cf20816baa1ecf46f74f6c2fdd61ff6b0ae4c7f0961e738035e242"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_015_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_015_SurfaceSnow",
+      "bytes": 26809,
+      "sha256": "bfe325383de41d7ba2d28a3b2cf71b081893a211ba9226e88c782135739a5bfe"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_ColdTimber_SnowTop_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_ColdTimber_SnowTop_SurfaceSnow",
+      "bytes": 28201,
+      "sha256": "3aaaca41763c5c6811ba70b7b0eb35363302a359f9c774f6589c2e09a0c7dc7c"
+    },
+    {
+      "path": "Content/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_WeatheredBridgeTimber_SurfaceSnow.uasset",
+      "package": "/Game/TianNanGe/EasySnowIntegration/SurfaceSnow/Materials/M_WeatheredBridgeTimber_SurfaceSnow",
+      "bytes": 27956,
+      "sha256": "7f7e2660de180eff2b89df98f354b56268c028f2aa8e11141748eec3933d8c4e"
+    },
+    {
+      "path": "Content/TianNanGe/Lighting/T_Kloofendal_Cube.uasset",
+      "package": "/Game/TianNanGe/Lighting/T_Kloofendal_Cube",
+      "bytes": 9159476,
+      "sha256": "81ce8b8382a4f4372243693e830dd45813529e24120e53beebd9efb72ceaeeee"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Lookdev/M_PowderSnow.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Lookdev/M_PowderSnow",
+      "bytes": 14783,
+      "sha256": "c566a7116729ad81c19305d4c3e76721242976ddac356c796e7c4da7fa1fe26d"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Lookdev/T_Source_Snow_Normal.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Lookdev/T_Source_Snow_Normal",
+      "bytes": 26044365,
+      "sha256": "ef9abe8fae912ff7b2a53127c2164a3afe95c28833650ef4ce153535960c787c"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Materials/M_000.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Materials/M_000",
+      "bytes": 5717,
+      "sha256": "8070cb2a3f5b89ec3b641f76329838601732d82a95850810a326b8f0eeea90c0"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Materials/M_004.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Materials/M_004",
+      "bytes": 8440,
+      "sha256": "acf0bfe7604354d3d6b4e21a3886ff9f3ed6c5f59fdcb97afeecc971d40154ab"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Materials/M_005.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Materials/M_005",
+      "bytes": 7888,
+      "sha256": "cc498de5f01c39d3ecca36820a739ea11312a447dc77ab83aea5fab774e7e27b"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Materials/M_016.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Materials/M_016",
+      "bytes": 5746,
+      "sha256": "580de8178cd452c400a8db56582da1d727e29e40c815f296ea6964f1cc1e3293"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Materials/M_017.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Materials/M_017",
+      "bytes": 5746,
+      "sha256": "73933a91e93fdfc3783e9fd8417e10769c578afca66182aa1745a8a75ebbfc93"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Materials/M_018.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Materials/M_018",
+      "bytes": 5717,
+      "sha256": "d77394e6d497204151450ad0496f31a5f613f36256619373baf8e56b20a2de02"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Materials/M_019.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Materials/M_019",
+      "bytes": 5717,
+      "sha256": "acfbc38401c324da3b4290217e9f5f7046aa08f088bf091da5b1c99c5dc87a3c"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Materials/M_020.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Materials/M_020",
+      "bytes": 7059,
+      "sha256": "3a0c98b08bf3897ba5ce6e23633d99e83d5ea33a4fec12716fe7bf1860902eb1"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0000.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0000",
+      "bytes": 70424,
+      "sha256": "3dd0283831af73fd9d31041ddf213c81082297b8f734eb0aaf07361405f31feb"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0001.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0001",
+      "bytes": 92399,
+      "sha256": "b33f6abd2c73955c66bbb4aa68e1318d7dc1ee05be3906052925fc05dd24f35f"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0002.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0002",
+      "bytes": 1371845,
+      "sha256": "6dcdab501cb9c8229a6b8b13190e72a3b40a66c995692f158b224743c0d67b13"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0003.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0003",
+      "bytes": 38602423,
+      "sha256": "d41be3dad013cf0fca231bba76d18b8265457ede3cff05ac3d07e771572c3a92"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0004.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0004",
+      "bytes": 38662080,
+      "sha256": "337cc9767946d6202a292e13133622e01913f9243733328a35f16a6b3c4acd4f"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0005.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0005",
+      "bytes": 37744845,
+      "sha256": "269c5f9245260d79b0ad76924dbf3c642cb2415535bf84676e1ac69c5200effa"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0006.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0006",
+      "bytes": 38083381,
+      "sha256": "f2965915f5b9a586eda5d43a232761fd94106243f0c90892c2fc4565820938ff"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0007.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0007",
+      "bytes": 37722583,
+      "sha256": "1f3145739a54c305432a7ff92d6d9ac3de8422394b47f1edad4f1ce799fb3280"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0008.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0008",
+      "bytes": 39419716,
+      "sha256": "0746019050aacdd425434a5c215794d98890c60844e44158793edd5986c6fadc"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0009.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0009",
+      "bytes": 39162159,
+      "sha256": "351699f4b0bede0a57bee1dab6bce74c9e1a7af1b0deeb13b476a58714261500"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0010.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0010",
+      "bytes": 38923579,
+      "sha256": "a6a260ae51c87e8c02301626b73b0ccc6f17bcc08102c5c1370920962db92e6c"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0011.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0011",
+      "bytes": 1124214,
+      "sha256": "38dae66165812c9d41dca8e670a0f35c10d4bb21679692998c9c78399b7a5ec3"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0012.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0012",
+      "bytes": 77584,
+      "sha256": "3c63c8474bbfb4fa5cdcafee85005866af9fa5ca469720aea1508a18ed7416d2"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0013.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0013",
+      "bytes": 75049,
+      "sha256": "949db92f2b0f992bb6b3d24bb4937692c814801fd1b45320768def622890a1d4"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0014.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0014",
+      "bytes": 77613,
+      "sha256": "c54fef53753572116b76dc888e8bb2e794c7ad2356ad72052d6fd16f799f99ba"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0015.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0015",
+      "bytes": 75017,
+      "sha256": "6d573f559ef741c73a62fbc0afdcdedea14d856e4370467d554140c52e0a81f5"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0016.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0016",
+      "bytes": 72676,
+      "sha256": "f135d1ef5f99dc6ba415b64a7110e354f29c24a2e78af6e9a3c795ed654af6cc"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0017.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0017",
+      "bytes": 73342,
+      "sha256": "b9305f5fe454a597edd0facedc3528bf354b6bc150de2858334ca4a7cd3e3ee1"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0018.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0018",
+      "bytes": 73063,
+      "sha256": "d2947baab8567c032a7e90ff4b78d9fa171bdabe53bac190f87885a70307e053"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0019.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0019",
+      "bytes": 90164,
+      "sha256": "3dcc6b8715f997408eb3776e5ed56485ca773da0ed4fe868a596d9d75d14c40b"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0020.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0020",
+      "bytes": 90307,
+      "sha256": "438d0b860ae99b53844bb5a17bb9461ca78f0f3578c4541b71498eddaf4a1c4c"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0021.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0021",
+      "bytes": 73386,
+      "sha256": "35d4e1a0bbc36b323e962e731a6a54df6fcc9b5bf048ac42e3a3315f3ce93058"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0022.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0022",
+      "bytes": 72526,
+      "sha256": "daa8d79a9dab4d0515132baa28319a063881157dad8f0a3bf975c8ef1a53e1d6"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0023.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0023",
+      "bytes": 72006,
+      "sha256": "faf6710c02e3be9b087b10968ff6ae3b694bcacca0421fe48d00fe8f287e3f55"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0024.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0024",
+      "bytes": 71948,
+      "sha256": "fa4783ac3a6a91b1d2a03e21991af9fdcd02fa884c845e83c77316b38e1601b2"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0025.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0025",
+      "bytes": 71945,
+      "sha256": "69cf1fe12993e08fcc9ac8fc3c4d90bd1c5e61e9f2335c59a0157adb2b680cdc"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0026.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0026",
+      "bytes": 71894,
+      "sha256": "fef6217515ebf97f1c3457ad6fc629c92271c9d1e55c2b7fa2d2de89d7102def"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0027.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0027",
+      "bytes": 71900,
+      "sha256": "efd4331a2b42ab3a37e1efc624efa38089c80cb6f27dbef61027d3fa2297b95e"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Meshes/SM_0028.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0028",
+      "bytes": 1958761,
+      "sha256": "d198366347f572bf758054fd4b10d255554b182aba04b04567eef9ced04a1bfb"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_FarPavilion_H31_8K_BaseColor_802ff8.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_FarPavilion_H31_8K_BaseColor_802ff8",
+      "bytes": 62518250,
+      "sha256": "aec43a7cfe8067b4ace1c0089f0932c9507d1ab0036bb3dcd3cb799fe32e6b02"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_FarPavilion_H31_8K_MaskMap_a66465.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_FarPavilion_H31_8K_MaskMap_a66465",
+      "bytes": 15199078,
+      "sha256": "3076ff9a23156cc42549948cb9905e81a81e1dfa4192a133499c854463b8fa4b"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_FarPavilion_H31_8K_Normal_cbc704.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_FarPavilion_H31_8K_Normal_cbc704",
+      "bytes": 6353349,
+      "sha256": "e412cd270d21d35fef233a9819b00aaafe70dbe9ca4392f3377e936a5197860e"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_FarRight_H31_8K_BaseColor_529897.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_FarRight_H31_8K_BaseColor_529897",
+      "bytes": 67388857,
+      "sha256": "8d8d490a60ecfbe2112a5d838edd8122a0222c936642bc809b167bf8e8fee58d"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_FarRight_H31_8K_MaskMap_164796.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_FarRight_H31_8K_MaskMap_164796",
+      "bytes": 11224265,
+      "sha256": "b2a629c4623303dfd349022efc5bfcab39e2d111228a1e53518a3c0228cb8879"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_FarRight_H31_8K_Normal_4afc91.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_FarRight_H31_8K_Normal_4afc91",
+      "bytes": 7410505,
+      "sha256": "066685020740dd17687f4109dde3ca43cd1f793f4b15142025c6b8378030caf4"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_GuestHouse_H31_8K_BaseColor_ba7d1d.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_GuestHouse_H31_8K_BaseColor_ba7d1d",
+      "bytes": 79055005,
+      "sha256": "2aeda252462e8851c538c9672773015cdc69dd6c229d255dea0768332b47f6c2"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_GuestHouse_H31_8K_MaskMap_ac0042.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_GuestHouse_H31_8K_MaskMap_ac0042",
+      "bytes": 13508097,
+      "sha256": "50f322c8c949b280e2d1c2f400be29a5a5bb662b7675f2fdf04253d533507c7d"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_GuestHouse_H31_8K_Normal_a08332.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_GuestHouse_H31_8K_Normal_a08332",
+      "bytes": 7229819,
+      "sha256": "3b0436c2ab4bcbc1a4f357342e4fbff8107e1ab5c52f58dbb5586bc00d211dd9"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_LeftPavilion_H31_8K_BaseColor_b503b8.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_LeftPavilion_H31_8K_BaseColor_b503b8",
+      "bytes": 65873064,
+      "sha256": "af0b8e125cba2620a42dc898eab2f9fb3732a1c4b7ab9b9d18d09edb249e5dfb"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_LeftPavilion_H31_8K_MaskMap_b30cc4.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_LeftPavilion_H31_8K_MaskMap_b30cc4",
+      "bytes": 13216368,
+      "sha256": "5e32f30eb78062a0ff7728f2e38192f4e6ae6e87a4f247fdd1bf6ce23d4caa4c"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_LeftPavilion_H31_8K_Normal_e07589.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_LeftPavilion_H31_8K_Normal_e07589",
+      "bytes": 8622485,
+      "sha256": "da01332132b24702d001257159298efdb8b9075380e6f5cc5ea3d0bf19e10fd8"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_MainHall_H31_8K_BaseColor_ef28ed.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_MainHall_H31_8K_BaseColor_ef28ed",
+      "bytes": 71548640,
+      "sha256": "d19fe59e0196ff42cfc3c3eb259b7ed2c39165856171d90fb29a4577ce1af6b9"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_MainHall_H31_8K_MaskMap_6d135d.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_MainHall_H31_8K_MaskMap_6d135d",
+      "bytes": 14757385,
+      "sha256": "a13ce140cc0a55b6d3eb55ce69e8e2cb855247cfa38fe4af077fc9313d48a435"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_MainHall_H31_8K_Normal_8d8fa6.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_MainHall_H31_8K_Normal_8d8fa6",
+      "bytes": 5642002,
+      "sha256": "c0666e085a07d3643467f5bf310601721612acf71622771a2a1603aa364d97be"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_MainPavilion_MaskMap_8ec996.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_MainPavilion_MaskMap_8ec996",
+      "bytes": 4105852,
+      "sha256": "dc9e4b9d085b3757b9c2929ea2d724c3c8c6591c99b6b4880b109652e526ae3a"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_SnowMountain_P20_8K_BaseColor_40b458.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_SnowMountain_P20_8K_BaseColor_40b458",
+      "bytes": 35482616,
+      "sha256": "553418040d04c21b620c011621eb459a189a9744150bd1f8780ed741ff19650f"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_SnowMountain_P20_8K_MaskMap_7db7fb.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_SnowMountain_P20_8K_MaskMap_7db7fb",
+      "bytes": 5973253,
+      "sha256": "1d52867bfdc30f8b61622c36e4c8f23efa8a794afdc968e99eb173228caec61e"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_SnowMountain_P20_8K_Normal_336d28.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_SnowMountain_P20_8K_Normal_336d28",
+      "bytes": 6747155,
+      "sha256": "7016791ab32b23ec53030be750e67be8d06a69c073a5a54ea03970a0ae7da334"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_TeaHouse_H31_8K_BaseColor_e4141e.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_TeaHouse_H31_8K_BaseColor_e4141e",
+      "bytes": 68571537,
+      "sha256": "0c52461f5a878cd46e8ebf22a51655e01d04b46bef63397400817cd443ed61e9"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_TeaHouse_H31_8K_MaskMap_bc4eeb.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_TeaHouse_H31_8K_MaskMap_bc4eeb",
+      "bytes": 9967513,
+      "sha256": "6939a6bce95cd42c681e72ad81a26d760b0d6ca3a9f21ef509cac4e64223e270"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_TeaHouse_H31_8K_Normal_9aa5cc.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_TeaHouse_H31_8K_Normal_9aa5cc",
+      "bytes": 7739385,
+      "sha256": "4915688b769b9ab2677a0be53f5ca05f230be649edcc0d6bf2a228bf9c76739f"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_WatchTower_H31_8K_BaseColor_31a86e.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_WatchTower_H31_8K_BaseColor_31a86e",
+      "bytes": 69412439,
+      "sha256": "511b7ae2eed83566e4ba7879f3868658751ed6c1fada4248293a1198e5b8abfb"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_WatchTower_H31_8K_MaskMap_f6bc28.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_WatchTower_H31_8K_MaskMap_f6bc28",
+      "bytes": 11581113,
+      "sha256": "4917d9d699563f31b16eea643427868f6867fbbe014b199cec7630702b29ab4f"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_WatchTower_H31_8K_Normal_1a09c4.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_WatchTower_H31_8K_Normal_1a09c4",
+      "bytes": 8778118,
+      "sha256": "255e3e5852e6a74100612cc3bba75d16936e0c9d4fc988752208834f9e512e08"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_dragon_1_9b3ca9.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_dragon_1_9b3ca9",
+      "bytes": 328324,
+      "sha256": "42a6820c926fc9dd55c27ff9c392571e6679ab78222483375b9311e766c12219"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_normal_54737e.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_normal_54737e",
+      "bytes": 4820822,
+      "sha256": "de8967ae26ccfdc3cc16e23802b0cb7317b7fa3f09428970f529c47785c3ba58"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_tripo_image_4dee5643_20cb_465c_a529_88f2794a3fe2_0_0_82a53f.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_tripo_image_4dee5643_20cb_465c_a529_88f2794a3fe2_0_0_82a53f",
+      "bytes": 4196751,
+      "sha256": "8f04238f3052a0018f6096bde1a0fc43f4ce925a84c0f69a2134a2709ba551d3"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_tripo_model_basecolor_9163fd.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_tripo_model_basecolor_9163fd",
+      "bytes": 7022253,
+      "sha256": "2eff07df7006a61a256aab2e6c5c9b78665bd304974f02aa36509ba0ab048799"
+    },
+    {
+      "path": "Content/TianNanGe/Revision_fdf5e67/Textures/T_tripo_model_normal_7ef846.uasset",
+      "package": "/Game/TianNanGe/Revision_fdf5e67/Textures/T_tripo_model_normal_7ef846",
+      "bytes": 2044200,
+      "sha256": "bd021fe04b3ffc1978629a80394aab5315a1e65ab39362104f15c187c5d19ea4"
+    }
+  ],
+  "total_bytes": 1124015979,
+  "missing_packages": [],
+  "engine_and_plugin_packages": [
+    "/Engine/BasicShapes/Cone",
+    "/Engine/BasicShapes/Cylinder",
+    "/Engine/EditorMaterials/TargetIcon",
+    "/Engine/EditorResources/LightIcons/S_LightError",
+    "/Engine/EngineMaterials/DefaultDiffuse",
+    "/Engine/EngineMaterials/DefaultNormal",
+    "/Engine/EngineMaterials/DefaultPhysicalMaterial",
+    "/Engine/EngineMaterials/WorldGridMaterial",
+    "/Engine/EngineResources/DefaultTexture",
+    "/Engine/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-3D",
+    "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
+    "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast",
+    "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/Contrast_Preserve_Color",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal",
+    "/Engine/Functions/Engine_MaterialFunctions01/Texturing/SpiralBlur-Texture",
+    "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/AddComponents",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/MakeVectorsOrthogonal",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Pi",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/TimeWithSpeedVariable",
+    "/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix",
+    "/Engine/Functions/Engine_MaterialFunctions02/ScreenResolution",
+    "/Engine/Functions/Engine_MaterialFunctions02/Texturing/FlowMaps_Simple",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/LinearSine",
+    "/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength",
+    "/Engine/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos",
+    "/Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange",
+    "/Niagara/DynamicInputs/Bool/Boolean_NotOperation",
+    "/Niagara/DynamicInputs/TypeConversions/Vector2DFromFloat",
+    "/Niagara/DynamicInputs/UniformRange/V2/RandomRangeFloat",
+    "/Niagara/DynamicInputs/UniformRange/V2/RandomRangeInt",
+    "/Niagara/DynamicInputs/UniformRange/V2/RandomRangeVector",
+    "/Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve",
+    "/Niagara/DynamicInputs/ValueFromCurve/VectorFromCurve",
+    "/Niagara/Enums/Angles/ENiagara_AngleInput",
+    "/Niagara/Enums/Collision/SceneDepthCollisionQueryMethod",
+    "/Niagara/Enums/ENiagaraAerodynamicDragPivotMode",
+    "/Niagara/Enums/ENiagaraCalculateRadiusOptions",
+    "/Niagara/Enums/ENiagaraChannelCorrelation",
+    "/Niagara/Enums/ENiagaraCollisionRadiusOptions",
+    "/Niagara/Enums/ENiagaraCurlNoiseQuality",
+    "/Niagara/Enums/ENiagaraDragCoefficientShapeMode",
+    "/Niagara/Enums/ENiagaraEmitterLifeCycleMode",
+    "/Niagara/Enums/ENiagaraEmitterScalabilityMode_Limited",
+    "/Niagara/Enums/ENiagaraFrictionMergeType",
+    "/Niagara/Enums/ENiagaraInactiveMode",
+    "/Niagara/Enums/ENiagaraMeshOrSprite",
+    "/Niagara/Enums/ENiagaraMeshTransforms",
+    "/Niagara/Enums/ENiagaraRandomnessEvaluation",
+    "/Niagara/Enums/ENiagaraRandomnessMode",
+    "/Niagara/Enums/ENiagaraRestitutionMergeType",
+    "/Niagara/Enums/ENiagaraScaleColorMode",
+    "/Niagara/Enums/ENiagaraShapeTorusMode",
+    "/Niagara/Enums/ENiagaraSphereDistributionMode",
+    "/Niagara/Enums/ENiagaraSystemInactiveMode",
+    "/Niagara/Enums/ENiagaraTorusDistributionMode",
+    "/Niagara/Enums/ENiagara_AttributeSamplingApplyOutput",
+    "/Niagara/Enums/ENiagara_CPUCollisionType",
+    "/Niagara/Enums/ENiagara_ColorInitializationMode",
+    "/Niagara/Enums/ENiagara_EmitterStateOptions",
+    "/Niagara/Enums/ENiagara_GPUCollisionType",
+    "/Niagara/Enums/ENiagara_InfiniteLoopDuration",
+    "/Niagara/Enums/ENiagara_LifetimeMode",
+    "/Niagara/Enums/ENiagara_MassInitializationMode",
+    "/Niagara/Enums/ENiagara_PositionInitializationMode",
+    "/Niagara/Enums/ENiagara_SizeScaleMode",
+    "/Niagara/Enums/ENiagara_SpriteRotationMode",
+    "/Niagara/Enums/ENiagara_SubUVLookupModeV2",
+    "/Niagara/Enums/ENiagara_UVFlippingMode",
+    "/Niagara/Enums/ENiagara_WrapClamp",
+    "/Niagara/Enums/Location/ENiagaraRingDiscMode",
+    "/Niagara/Enums/Location/ENiagara_BoxPlaneMode",
+    "/Niagara/Enums/Location/ENiagara_ConeMode",
+    "/Niagara/Enums/Location/ENiagara_CylinderMode",
+    "/Niagara/Enums/Location/ENiagara_LocationShapes",
+    "/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSet",
+    "/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSetRandom",
+    "/Niagara/Enums/SpriteRenderer/ENiagara_AutomaticManual",
+    "/Niagara/Enums/SpriteRenderer/ENiagara_FPSPlayrate",
+    "/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize",
+    "/Niagara/Enums/Transforms/ENiagara_MeshOrientationOptions",
+    "/Niagara/Enums/Transforms/ENiagara_OffsetMode",
+    "/Niagara/Enums/Transforms/ENiagara_RotationMode",
+    "/Niagara/Enums/Transforms/ENiagara_ScaleMode",
+    "/Niagara/Enums/Transforms/ENiagara_TransformOrder",
+    "/Niagara/Enums/Transforms/ENiagara_TransformType",
+    "/Niagara/Enums/Wind/ENiagaraWindOffsetMode",
+    "/Niagara/Enums/Wind/ENiagaraWindTurbulenceMode",
+    "/Niagara/Functions/DirectionAndLengthSafe",
+    "/Niagara/Functions/Localspace/PositionToVector",
+    "/Niagara/Functions/Localspace/TransformOffset",
+    "/Niagara/Functions/Localspace/TransformVector",
+    "/Niagara/Functions/Math/SaturateFloat",
+    "/Niagara/Functions/V2/CalculateRandomRangeFloat",
+    "/Niagara/Modules/Collision/Collision",
+    "/Niagara/Modules/Emitter/EmitterState",
+    "/Niagara/Modules/Emitter/SpawnRate",
+    "/Niagara/Modules/Solvers/ApplyInitialForces",
+    "/Niagara/Modules/Solvers/SolveForcesAndVelocity",
+    "/Niagara/Modules/Spawn/Initialization/V2/InitializeParticle",
+    "/Niagara/Modules/Spawn/Location/V2/ShapeLocation",
+    "/Niagara/Modules/Spawn/Orientation/V3/InitialMeshOrientation",
+    "/Niagara/Modules/System/SystemState",
+    "/Niagara/Modules/Update/Color/ScaleColor",
+    "/Niagara/Modules/Update/Forces/AerodynamicDrag",
+    "/Niagara/Modules/Update/Forces/Drag",
+    "/Niagara/Modules/Update/Lifetime/KillParticles",
+    "/Niagara/Modules/Update/Lifetime/ParticleState",
+    "/Niagara/Modules/Update/Orientation/AlignSpriteToMeshOrientation",
+    "/Niagara/Modules/Update/Orientation/SpriteRotationRate",
+    "/Niagara/Modules/Update/Orientation/V2/MeshRotationForce",
+    "/Niagara/Modules/Update/Size/ScaleMeshSize",
+    "/Niagara/Modules/Update/Size/ScaleSpriteSize",
+    "/Niagara/Modules/Update/SubUV/V2/SubUVAnimation",
+    "/Niagara/ParameterDefinitions/CoreParameters",
+    "/Niagara/ParameterDefinitions/MeshRenderer",
+    "/Niagara/ParameterDefinitions/RibbonRenderer",
+    "/Niagara/ParameterDefinitions/SpriteRenderer",
+    "/Niagara/VectorFields/Assets/TilingCurl16",
+    "/Niagara/VectorFields/Assets/TilingCurl32",
+    "/Niagara/VectorFields/Assets/TilingCurl64",
+    "/Script/Engine",
+    "/Script/InterchangeEngine",
+    "/Script/LevelSequence",
+    "/Script/MovieScene",
+    "/Script/MovieSceneTracks",
+    "/Script/NavigationSystem",
+    "/Script/Niagara",
+    "/Script/NiagaraEditor",
+    "/Script/RigVM"
+  ],
+  "actors": 464,
+  "cloud_controller": "Cloud Sea Controls - TianNanGe",
+  "cloud_parameters": {
+    "SeaLevel": -124.53327941894531,
+    "WaveHeight": 59.20000076293945,
+    "WavePeriod": 3295.46630859375,
+    "BillowPeriod": 1022.13330078125,
+    "SurfaceSoftness": 150.0,
+    "ErosionDepth": 50.400001525878906,
+    "DetailPeriod": 113.59992980957031,
+    "EdgeFade": 100.0,
+    "Extinction": 2.6160008907318115,
+    "WindSpeed": 40.0,
+    "BillowStrength": 0.9423999786376953,
+    "WindRotationDegrees": 36.47999572753906,
+    "BridgeClearanceStrength": 0.8704000115394592,
+    "BridgeClearanceWidth": 0.4652000069618225,
+    "DensityMultiplier": 5.0,
+    "InteriorDensityBoost": 8.0
+  },
+  "verification": "Saved scene load and dependency audit using UE; no GPU rendering validation."
+}
