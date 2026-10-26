@@ -46,6 +46,11 @@ for key in mel.get_texture_parameter_names(source):
     assert texture
     mel.set_material_instance_texture_parameter_value(mi,key,texture)
     assert mel.get_material_instance_texture_parameter_value(mi,key)==texture
+    if str(key)=='SkyTexture':
+        # The sphere folds V at its equator. Keep U wrapping for rotation, but
+        # reflect vertical flow offsets instead of sampling the opposite pole.
+        texture.set_editor_property('address_y',u.TextureAddress.TA_MIRROR)
+        assert assets.save_loaded_asset(texture)
 for key,val in {'Brightness':brightness,'Contrast':.95,'Speed':.004,'NoiseStrength':.04}.items():
     mel.set_material_instance_scalar_parameter_value(mi,key,val)
     assert abs(mel.get_material_instance_scalar_parameter_value(mi,key)-val)<.0001

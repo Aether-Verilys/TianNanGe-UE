@@ -158,8 +158,8 @@
     {
       "path": "Content/Chaotic_Skies_II/Textures/Skies/T_chaotic_sky_II_04.uasset",
       "package": "/Game/Chaotic_Skies_II/Textures/Skies/T_chaotic_sky_II_04",
-      "bytes": 9989375,
-      "sha256": "feac1af964146205b7e6552be24fce64278a322ecf1678f390002c4c17f6713c"
+      "bytes": 8242486,
+      "sha256": "79682469c40db6c7f48f8a8cb96803ba08ee8309622b6782b6bd4b83bf8d5983"
     },
     {
       "path": "Content/EasySnow/Blueprints/BP_EasySnow.uasset",
@@ -1698,7 +1698,7 @@
       "sha256": "bd021fe04b3ffc1978629a80394aab5315a1e65ab39362104f15c187c5d19ea4"
     }
   ],
-  "total_bytes": 1124015979,
+  "total_bytes": 1122269090,
   "missing_packages": [],
   "engine_and_plugin_packages": [
     "/Engine/BasicShapes/Cone",

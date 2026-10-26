@@ -54,6 +54,7 @@
 - 安装初始参数：Brightness 5000、Contrast 0.95、Tint `(0.76, 0.88, 1)`、Speed 0.004、NoiseStrength 0.04，天空自身 Yaw −75°。后续手调以本机实例读数为准，旋转脚本保留已有外观参数；重新运行天空安装脚本会重设这些参数。
 - 当前场景启用了体积雾，密度为 0.9。天空使用有深度测试的 Unlit 透明材质，关闭自身重复雾化，排序位于雪花之后的远背景；建筑和人物继续使用原有体积雾。试验过的雾截止距离已恢复为原值 0。
 - 直射光方向、强度、颜色、SkyLight Cubemap、曝光及风雪参数均保留。天空自身的旋转不改变直射光方向。
+- 2026-10-26 天空边界修正：当前天空纹理的 U 保持 Wrap、V 改为 Mirror。天空球网格在赤道折返 V，原先纵向循环会将边缘采样送到图像另一端，出现水平横带；镜像纵向寻址保留流动与水平旋转。只修改纹理采样元数据，导出前后原图像素哈希一致；用户当前角度、亮度、对比度、颜色及速度均保留。用户已在原视角确认横带消失。维护入口为 `Tools/fix_sky_horizon_sampling.py`，实时资源更新需先串行准备、完成后恢复普通渲染，不移动相机或接管桌面输入。
 - 备份：`Backups/ChaoticSky_20261020/TianNanGe_EasySnow.umap`；安装记录：`Saved/ChaoticSkies/installed.json`。
 - 新预览：`Captures/ChaoticWinterSky04_Clouds_Preview.mp4`；静帧：`Captures/ReferenceLook/Chaotic_Winter_Sky_04.png`。
 
