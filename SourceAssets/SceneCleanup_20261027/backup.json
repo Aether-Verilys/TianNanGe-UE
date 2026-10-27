@@ -1,0 +1,13 @@
+{
+  "path": "D:\\UnrealProject\\TianNanGe_UE58\\Backups\\SceneCleanupNanite_20261027",
+  "map": "D:\\UnrealProject\\TianNanGe_UE58\\Content\\TianNanGe\\EasySnowIntegration\\Maps\\TianNanGe_EasySnow.umap",
+  "bridge_meshes": [
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Rails.SM_Bridge_Timber_Rails",
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Posts.SM_Bridge_Timber_Posts",
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Rails.SM_Bridge_Snow_Rails",
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Caps.SM_Bridge_Snow_Caps",
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Icicles.SM_Bridge_Icicles",
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Deck.SM_Bridge_Snow_Deck",
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Structure.SM_Bridge_Structure"
+  ]
+}

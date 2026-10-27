@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "deleted_actors": 323,
+  "remaining_actors": 149,
+  "nanite_meshes": 34,
+  "nanite_components": 134,
+  "mesh_details": {
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0000.SM_0000": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0002.SM_0002": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0003.SM_0003": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0004.SM_0004": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0005.SM_0005": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0006.SM_0006": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0007.SM_0007": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0008.SM_0008": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0009.SM_0009": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0010.SM_0010": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0016.SM_0016": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0017.SM_0017": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0018.SM_0018": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0019.SM_0019": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0020.SM_0020": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0021.SM_0021": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0001.SM_0001": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0022.SM_0022": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0023.SM_0023": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0024.SM_0024": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0025.SM_0025": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0026.SM_0026": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0027.SM_0027": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0028.SM_0028": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Rails.SM_Bridge_Timber_Rails": {
+      "nanite_enabled": true,
+      "fallback_vertices": 117738,
+      "source_fallback_vertex_count_preserved": true,
+      "position_precision": 8,
+      "shape_preservation": "<NaniteShapePreservation.NONE: 0>"
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Posts.SM_Bridge_Timber_Posts": {
+      "nanite_enabled": true,
+      "fallback_vertices": 796,
+      "source_fallback_vertex_count_preserved": true,
+      "position_precision": 8,
+      "shape_preservation": "<NaniteShapePreservation.NONE: 0>"
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Rails.SM_Bridge_Snow_Rails": {
+      "nanite_enabled": true,
+      "fallback_vertices": 113868,
+      "source_fallback_vertex_count_preserved": true,
+      "position_precision": 8,
+      "shape_preservation": "<NaniteShapePreservation.PRESERVE_AREA: 1>"
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Caps.SM_Bridge_Snow_Caps": {
+      "nanite_enabled": true,
+      "fallback_vertices": 64495,
+      "source_fallback_vertex_count_preserved": true,
+      "position_precision": 8,
+      "shape_preservation": "<NaniteShapePreservation.PRESERVE_AREA: 1>"
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Icicles.SM_Bridge_Icicles": {
+      "nanite_enabled": true,
+      "fallback_vertices": 17226,
+      "source_fallback_vertex_count_preserved": true,
+      "position_precision": 8,
+      "shape_preservation": "<NaniteShapePreservation.PRESERVE_AREA: 1>"
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Deck.SM_Bridge_Snow_Deck": {
+      "nanite_enabled": true,
+      "fallback_vertices": 20910,
+      "source_fallback_vertex_count_preserved": true,
+      "position_precision": 8,
+      "shape_preservation": "<NaniteShapePreservation.NONE: 0>"
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Structure.SM_Bridge_Structure": {
+      "nanite_enabled": true,
+      "fallback_vertices": 14320,
+      "source_fallback_vertex_count_preserved": true,
+      "position_precision": 8,
+      "shape_preservation": "<NaniteShapePreservation.NONE: 0>"
+    },
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_01_Rocky/SM_TNG_Mountain_01_Rocky/StaticMeshes/SM_TNG_Mountain_01_Rocky.SM_TNG_Mountain_01_Rocky": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/StaticMeshes/SM_TNG_Mountain_03_Cliff.SM_TNG_Mountain_03_Cliff": {
+      "nanite_enabled": true
+    },
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_02_Peak/SM_TNG_Mountain_02_Peak/StaticMeshes/SM_TNG_Mountain_02_Peak.SM_TNG_Mountain_02_Peak": {
+      "nanite_enabled": true
+    }
+  },
+  "exceptions": [
+    {
+      "actor": "Main Camera (reference look)",
+      "mesh": "/Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM",
+      "reason": "Editor helper geometry"
+    },
+    {
+      "actor": "Lookdev Chaotic winter sky 04",
+      "mesh": "/Game/Chaotic_Skies_II/Meshes/SM_Skybox_Mesh.SM_Skybox_Mesh",
+      "reason": "Translucent sky material"
+    }
+  ],
+  "surviving_actor_transforms_visibility_materials_preserved": true,
+  "backup": "D:\\UnrealProject\\TianNanGe_UE58\\Backups\\SceneCleanupNanite_20261027"
+}

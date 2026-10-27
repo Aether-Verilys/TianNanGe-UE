@@ -1,0 +1,127 @@
+{
+  "source": {
+    "original": "D:\\UnrealProject\\TianNanGe_UE58\\SourceAssets\\RealisticMountains\\UserGenerated_20261027\\SM_TNG_Mountain_01_Rocky.glb",
+    "local_path": "D:\\UnrealProject\\TianNanGe_UE58\\SourceAssets\\RealisticMountains\\UserGenerated_20261027\\SM_TNG_Mountain_01_Rocky.glb",
+    "local_path_is_temporary": false,
+    "file_name": "SM_TNG_Mountain_01_Rocky.glb",
+    "extension": "glb",
+    "size_bytes": 95579352,
+    "sha256": "08d87827426e0ed5f4ff8be8b9eb3570c23e3893737b938b2da7293d85ca423d"
+  },
+  "route": {
+    "mode": "inspect",
+    "command_kind": "explicit-binary",
+    "command": [
+      "D:\\Dev\\Orbit\\Tripo-Orbit\\target\\debug\\tripo-orbit-cli.exe",
+      "inspect",
+      "D:\\UnrealProject\\TianNanGe_UE58\\SourceAssets\\RealisticMountains\\UserGenerated_20261027\\SM_TNG_Mountain_01_Rocky.glb"
+    ]
+  },
+  "result": {
+    "file": {
+      "path": "\\\\?\\D:\\UnrealProject\\TianNanGe_UE58\\SourceAssets\\RealisticMountains\\UserGenerated_20261027\\SM_TNG_Mountain_01_Rocky.glb",
+      "file_name": "SM_TNG_Mountain_01_Rocky.glb",
+      "extension": "glb"
+    },
+    "format": "GLB",
+    "geometry": {
+      "vertices": 1097481,
+      "faces": 1965858,
+      "tri_faces": 1965858,
+      "quad_faces": 0,
+      "ngon_faces": 0,
+      "has_tangents": false,
+      "winding_order": "CCW"
+    },
+    "materials": {
+      "material_count": 1,
+      "texture_count": 4,
+      "uv_sets": 1,
+      "has_base_color_texture": true,
+      "has_normal_texture": true,
+      "has_metallic_texture": true,
+      "has_roughness_texture": true,
+      "materials": [
+        {
+          "name": "tripo_mat_0dc344a5-56b6-49f9-8af5-3459949b1e85",
+          "has_base_color": true,
+          "has_normal": true,
+          "has_metallic": true,
+          "has_roughness": true
+        }
+      ]
+    },
+    "scene": {
+      "node_count": 1,
+      "has_hierarchy": false,
+      "skin_count": 0
+    },
+    "animation": {
+      "animation_count": 0,
+      "clips": []
+    },
+    "format_specific": {},
+    "mesh_diagnostic": {
+      "label": "GLTF mesh",
+      "status": "warning",
+      "summary": [
+        "possible reversed normals on 4 triangles"
+      ],
+      "topology": {
+        "vertex_count": 1097481,
+        "index_count": 5897574,
+        "triangle_count": 1965858,
+        "referenced_vertex_count": 1097481,
+        "unreferenced_vertex_count": 0,
+        "invalid_index_count": 0,
+        "unique_position_count": 982931,
+        "unique_referenced_position_count": 982931,
+        "positions_with_multiple_normals": 10827,
+        "indices_used_once": 63638,
+        "max_index_reuse": 12,
+        "duplicate_triangle_count": 0,
+        "degenerate_triangle_count": 0
+      },
+      "geometry": {
+        "finite_position_count": 1097481,
+        "non_finite_position_count": 0,
+        "aabb": {
+          "min": [
+            -0.35333252,
+            0.0,
+            -0.48986825
+          ],
+          "max": [
+            0.3534546,
+            0.5836792,
+            0.49008182
+          ],
+          "extent": [
+            0.7067871,
+            0.5836792,
+            0.9799501
+          ],
+          "center": [
+            6.1035156e-05,
+            0.2918396,
+            0.00010678172
+          ]
+        }
+      },
+      "normals": {
+        "normals_source": "authored",
+        "normal_count": 1097481,
+        "finite_normal_count": 1097481,
+        "non_finite_normal_count": 0,
+        "zero_normal_count": 0,
+        "non_unit_normal_count": 0,
+        "flat_triangle_count": 1548994,
+        "smooth_or_custom_triangle_count": 416864,
+        "reversed_triangle_count": 4,
+        "average_face_normal_dot": 0.9936919,
+        "min_face_normal_dot": -0.99973714
+      }
+    },
+    "generated_at": "2026-10-27 12:29:53"
+  }
+}

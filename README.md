@@ -30,7 +30,9 @@ git lfs pull
 - 重建的前景雪桥：稀疏立柱、非对称栏杆、雪团、细绳、冰挂和弯曲桥面。后段加深下沉与右弯，远端回升接平台。
 - 原始人物、龙的骨架资源；场景中的展示对象仍采用烘焙静态姿态。
 
-新桥位于 Outliner 的 `Reference/Bridge`，资产在 `/Game/TianNanGe/BridgeReference`。旧桥的 309 个白盒及雪细节 Actor 保留但关闭组件可见性与游戏可见性。桥体网格使用完整普通静态网格精度，避免本次 UE 5.8.3 Nanite/回退构建吞掉小雪团和细冰挂；其他资产的 Nanite 设置保留。
+新桥位于 Outliner 的 `Reference/Bridge`，资产在 `/Game/TianNanGe/BridgeReference`。2026-10-27 已从当前关卡清除 309 个停用旧桥白盒及雪细节 Actor，以及 14 个已被写实山体替换的旧山体 Actor。仍被历史关卡和保留几何引用的共享网格资产保留。清理前的关卡和桥体网格备份位于 `Backups/SceneCleanupNanite_20261027`。
+
+当前关卡的 34 份可渲染静态网格、134 个组件均已启用 Nanite。桥体保留全部源三角形、100% 回退网格，并使用 `Position Precision=8`（步长 1/256 cm）；雪栏、雪团和冰挂采用 `Preserve Area`，避免细小结构被粗化。半透明天空球和编辑器摄像机图标保留原渲染方式。检查结果见 [清理与 Nanite 记录](SourceAssets/SceneCleanup_20261027/README.md)。
 
 ## 工具与复现
 
@@ -62,7 +64,7 @@ runpy.run_path(str(root / "Tools/finalize_bridge_connection.py"), run_name="__ma
 
 ## 验证与限制
 
-`bridge-validation-reloaded.json` 是独立 UE 命令行进程重新加载已保存关卡后的验证结果，检查七个新桥 Actor、309 个旧桥 Actor 的隐藏状态，以及灯光/相机参数保留。最终截图来自 UE 原生渲染。
+`bridge-validation-reloaded.json` 是早期桥体重建后独立 UE 进程重新加载关卡的历史验证结果，其中的旧桥隐藏状态已由上述清理取代。当前清理与 Nanite 验证见 `SourceAssets/SceneCleanup_20261027/verification.json`，检查删除清单、保留对象的变换/可见性/材质、全部场景几何的 Nanite 设置及桥体回退顶点数。截图来自 UE 原生渲染。
 
 这是静态场景迁移原型，尚未完成 UE Character、移动控制、AnimBP、动态骨骼挂剑、完整碰撞及打包验收。构图和桥体经过调整，但没有达到原画像素级一致。
 

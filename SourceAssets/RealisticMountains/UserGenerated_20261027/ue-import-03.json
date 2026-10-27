@@ -1,0 +1,17 @@
+{
+  "index": 2,
+  "name": "SM_TNG_Mountain_03_Cliff",
+  "mesh": "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/StaticMeshes/SM_TNG_Mountain_03_Cliff.SM_TNG_Mountain_03_Cliff",
+  "objects": [
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/Textures/tripo_image_cd8f64be-8698-412c-96a5-c6e5eaef2dd2_2.tripo_image_cd8f64be-8698-412c-96a5-c6e5eaef2dd2_2",
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/Textures/tripo_image_cd8f64be-8698-412c-96a5-c6e5eaef2dd2_0.tripo_image_cd8f64be-8698-412c-96a5-c6e5eaef2dd2_0",
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/Textures/tripo_image_cd8f64be-8698-412c-96a5-c6e5eaef2dd2_1.tripo_image_cd8f64be-8698-412c-96a5-c6e5eaef2dd2_1",
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/Materials/tripo_mat_cd8f64be-8698-412c-96a5-c6e5eaef2dd2.tripo_mat_cd8f64be-8698-412c-96a5-c6e5eaef2dd2",
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/StaticMeshes/SM_TNG_Mountain_03_Cliff.SM_TNG_Mountain_03_Cliff"
+  ],
+  "materials": [
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/Materials/tripo_mat_cd8f64be-8698-412c-96a5-c6e5eaef2dd2.tripo_mat_cd8f64be-8698-412c-96a5-c6e5eaef2dd2"
+  ],
+  "bounds": "<Struct 'BoxSphereBounds' (0x0000027A54D87880) {origin: {x: 0.024414, y: -0.010681, z: 20.706940}, box_extent: {x: 49.176033, y: 40.971386, z: 20.706940}, sphere_radius: 60.679984}>",
+  "nanite_enabled": true
+}

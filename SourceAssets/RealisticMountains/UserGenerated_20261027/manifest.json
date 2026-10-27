@@ -1,0 +1,50 @@
+{
+  "backup": "Backups/RealisticMountains_20261027/TianNanGe_EasySnow_live.umap",
+  "assets": [
+    {
+      "name": "SM_TNG_Mountain_01_Rocky",
+      "triangles": 1965858,
+      "export_format": "GLB",
+      "sha256": "08d87827426e0ed5f4ff8be8b9eb3570c23e3893737b938b2da7293d85ca423d",
+      "task_id": "3703cf45-f021-4bcc-b619-bc286f60cb1d",
+      "url": "https://studio.tripo3d.ai/workspace/generate/rocky-mountain-with-snow-covering-jagged-rock-faces-3703cf45-f021-4bcc-b619-bc286f60cb1d",
+      "file": "SM_TNG_Mountain_01_Rocky.glb",
+      "size_bytes": 95579352,
+      "order": 1,
+      "export_texture_resolution": "8k Current"
+    },
+    {
+      "name": "SM_TNG_Mountain_02_Peak",
+      "triangles": 1936226,
+      "export_format": "GLB",
+      "sha256": "db2755fba39b73d2697a904e821227a59325aebf3d1b54d64bc247eb867734b1",
+      "task_id": "562e130c-d228-46bf-ba57-db1a51184553",
+      "url": "https://studio.tripo3d.ai/workspace/generate/rocky-mountain-peak-with-snow-covered-ridges-and-jagged-rock-texture-562e130c-d228-46bf-ba57-db1a51184553",
+      "file": "SM_TNG_Mountain_02_Peak.glb",
+      "size_bytes": 98098508,
+      "order": 2,
+      "export_texture_resolution": "8k Current"
+    },
+    {
+      "name": "SM_TNG_Mountain_03_Cliff",
+      "triangles": 1879090,
+      "export_format": "GLB",
+      "sha256": "36ed62ef42c757fda8abf1c75442c86da2def38ca4a2064a5a7aa5443325e707",
+      "task_id": "cd4839b6-a453-4db9-928d-9eb2e1e1aa8b",
+      "url": "https://studio.tripo3d.ai/workspace/generate/snow-dusted-rock-cliff-with-jagged-stone-formations-cd4839b6-a453-4db9-928d-9eb2e1e1aa8b",
+      "file": "SM_TNG_Mountain_03_Cliff.glb",
+      "size_bytes": 90412820,
+      "order": 3,
+      "export_texture_resolution": "8k Current"
+    }
+  ],
+  "generated_new_tasks": false,
+  "scene": "/Game/TianNanGe/EasySnowIntegration/Maps/TianNanGe_EasySnow",
+  "order": "Visible asset list order",
+  "source": "User-generated Tripo Studio assets",
+  "date": "2026-10-27",
+  "status": "downloaded_imported_replaced_saved_verified",
+  "replacement_count": 11,
+  "hidden_original_count": 14,
+  "texture_validation": "Base Color 8192x8192, Normal and packed PBR 4096x4096 for all three assets."
+}

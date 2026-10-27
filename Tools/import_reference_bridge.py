@@ -40,10 +40,15 @@ for info in data['meshes']:
     mesh=next((assets.load_asset(p) for p in task.imported_object_paths if isinstance(assets.load_asset(p),u.StaticMesh)),None)
     assert mesh,info['name']
     mesh.set_material(0,mats[info['material']])
-    settings=mesh.get_editor_property('nanite_settings');settings.set_editor_property('enabled',False)
+    settings=mesh.get_editor_property('nanite_settings');settings.set_editor_property('enabled',True)
     settings.set_editor_property('fallback_relative_error',0.0)
     settings.set_editor_property('fallback_percent_triangles',1.0)
-    settings.set_editor_property('position_precision',-2147483648)
+    settings.set_editor_property('position_precision',8)
+    settings.set_editor_property('keep_percent_triangles',1.0)
+    settings.set_editor_property('trim_relative_error',0.0)
+    settings.set_editor_property('fallback_target',u.NaniteFallbackTarget.PERCENT_TRIANGLES)
+    if any(part in info['name'] for part in ('Snow_Rails','Snow_Caps','Icicles')):
+        settings.set_editor_property('shape_preservation',u.NaniteShapePreservation.PRESERVE_AREA)
     u.get_editor_subsystem(u.StaticMeshEditorSubsystem).set_nanite_settings(mesh,settings,True)
     body=mesh.get_editor_property('body_setup')
     if body:body.set_editor_property('collision_trace_flag',u.CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE)

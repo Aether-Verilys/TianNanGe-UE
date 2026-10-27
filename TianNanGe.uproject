@@ -1,11 +1,29 @@
 {
-  "FileVersion": 3,
-  "EngineAssociation": "5.8",
-  "Category": "Migration",
-  "Description": "TianNanGe Unity HDRP scene migration prototype",
-  "Plugins": [
-    {"Name": "AndroidFileServer", "Enabled": false},
-    {"Name": "PythonScriptPlugin", "Enabled": true},
-    {"Name": "EditorScriptingUtilities", "Enabled": true}
-  ]
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "Migration",
+	"Description": "TianNanGe Unity HDRP scene migration prototype",
+	"Plugins": [
+		{
+			"Name": "AndroidFileServer",
+			"Enabled": false
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHuman",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	]
 }

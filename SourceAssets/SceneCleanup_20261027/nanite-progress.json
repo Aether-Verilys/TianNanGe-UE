@@ -1,0 +1,253 @@
+{
+  "meshes": {
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0000.SM_0000": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0000.SM_0000",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x000001931729D3A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 24
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0002.SM_0002": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0002.SM_0002",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x0000019344CB7BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 1506
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0003.SM_0003": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0003.SM_0003",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D5FDE3A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 22572
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0004.SM_0004": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0004.SM_0004",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D5FD9BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 24139
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0005.SM_0005": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0005.SM_0005",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D5FD93A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 28706
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0006.SM_0006": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0006.SM_0006",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D5FD8BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 25308
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0007.SM_0007": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0007.SM_0007",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D5FDA3A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 16483
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0008.SM_0008": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0008.SM_0008",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D5FDABA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 20437
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0009.SM_0009": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0009.SM_0009",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D5FDB3A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 20364
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0010.SM_0010": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0010.SM_0010",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D5FDBBA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 33090
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0016.SM_0016": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0016.SM_0016",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192F1BF8BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 42
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0017.SM_0017": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0017.SM_0017",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D2036BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 86
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0018.SM_0018": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0018.SM_0018",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000192D20373A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 50
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0019.SM_0019": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0019.SM_0019",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x0000019318C033A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 486
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0020.SM_0020": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0020.SM_0020",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x0000019318C043A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 486
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0021.SM_0021": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0021.SM_0021",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x000001935B2813A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 58
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0001.SM_0001": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0001.SM_0001",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x000001931729CBA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 149
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0022.SM_0022": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0022.SM_0022",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x000001935B288BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 32
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0023.SM_0023": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0023.SM_0023",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725E03A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 17
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0024.SM_0024": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0024.SM_0024",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725E13A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 17
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0025.SM_0025": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0025.SM_0025",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725E1BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 17
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0026.SM_0026": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0026.SM_0026",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725E23A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 17
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0027.SM_0027": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0027.SM_0027",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725E2BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 17
+    },
+    "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0028.SM_0028": {
+      "mesh": "/Game/TianNanGe/Revision_fdf5e67/Meshes/SM_0028.SM_0028",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725E33A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 6098
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Rails.SM_Bridge_Timber_Rails": {
+      "mesh": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Rails.SM_Bridge_Timber_Rails",
+      "previously_enabled": false,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725EEBA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: 8, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: PercentTriangles, fallback_percent_triangles: 1.000000, fallback_relative_error: 0.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 117738
+    },
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_01_Rocky/SM_TNG_Mountain_01_Rocky/StaticMeshes/SM_TNG_Mountain_01_Rocky.SM_TNG_Mountain_01_Rocky": {
+      "mesh": "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_01_Rocky/SM_TNG_Mountain_01_Rocky/StaticMeshes/SM_TNG_Mountain_01_Rocky.SM_TNG_Mountain_01_Rocky",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193D4A0FBA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 12758
+    },
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/StaticMeshes/SM_TNG_Mountain_03_Cliff.SM_TNG_Mountain_03_Cliff": {
+      "mesh": "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_03_Cliff/SM_TNG_Mountain_03_Cliff/StaticMeshes/SM_TNG_Mountain_03_Cliff.SM_TNG_Mountain_03_Cliff",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x0000019399DF4BA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 10367
+    },
+    "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_02_Peak/SM_TNG_Mountain_02_Peak/StaticMeshes/SM_TNG_Mountain_02_Peak.SM_TNG_Mountain_02_Peak": {
+      "mesh": "/Game/TianNanGe/RealisticMountains/SM_TNG_Mountain_02_Peak/SM_TNG_Mountain_02_Peak/StaticMeshes/SM_TNG_Mountain_02_Peak.SM_TNG_Mountain_02_Peak",
+      "previously_enabled": true,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x0000019399DFEBA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 12686
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Posts.SM_Bridge_Timber_Posts": {
+      "mesh": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Timber_Posts.SM_Bridge_Timber_Posts",
+      "previously_enabled": false,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725EE3A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: 8, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: PercentTriangles, fallback_percent_triangles: 1.000000, fallback_relative_error: 0.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 796
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Rails.SM_Bridge_Snow_Rails": {
+      "mesh": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Rails.SM_Bridge_Snow_Rails",
+      "previously_enabled": false,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725EB3A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: PreserveArea, position_precision: 8, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: PercentTriangles, fallback_percent_triangles: 1.000000, fallback_relative_error: 0.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 113868
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Caps.SM_Bridge_Snow_Caps": {
+      "mesh": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Caps.SM_Bridge_Snow_Caps",
+      "previously_enabled": false,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725EA3A0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: PreserveArea, position_precision: 8, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: PercentTriangles, fallback_percent_triangles: 1.000000, fallback_relative_error: 0.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 64495
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Icicles.SM_Bridge_Icicles": {
+      "mesh": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Icicles.SM_Bridge_Icicles",
+      "previously_enabled": false,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x000001931729DBA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: PreserveArea, position_precision: 8, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: PercentTriangles, fallback_percent_triangles: 1.000000, fallback_relative_error: 0.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 17226
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Deck.SM_Bridge_Snow_Deck": {
+      "mesh": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Snow_Deck.SM_Bridge_Snow_Deck",
+      "previously_enabled": false,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725EABA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: 8, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: PercentTriangles, fallback_percent_triangles: 1.000000, fallback_relative_error: 0.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 20910
+    },
+    "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Structure.SM_Bridge_Structure": {
+      "mesh": "/Game/TianNanGe/BridgeReference/Meshes/SM_Bridge_Structure.SM_Bridge_Structure",
+      "previously_enabled": false,
+      "nanite_enabled": true,
+      "settings": "<Struct 'MeshNaniteSettings' (0x00000193725EDBA0) {enabled: True, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: 8, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: PercentTriangles, fallback_percent_triangles: 1.000000, fallback_relative_error: 0.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+      "fallback_vertices": 14320
+    }
+  },
+  "exceptions": [
+    {
+      "mesh": "/Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM",
+      "reason": "Editor camera visualization; not scene render geometry."
+    },
+    {
+      "mesh": "/Game/Chaotic_Skies_II/Meshes/SM_Skybox_Mesh.SM_Skybox_Mesh",
+      "reason": "Translucent sky material; retain current sky rendering."
+    }
+  ],
+  "component_overrides": []
+}
