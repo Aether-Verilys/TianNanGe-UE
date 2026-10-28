@@ -36,18 +36,41 @@ Thumbs.db
 /Transfer_BridgeReference/BeforeRearCurve/
 
 # Runtime command queue, local diagnostics and one-off probes
+/SourceAssets/
+/Tests/
+/tests/
 /Tools/Live/
 /Tools/Diagnostics/
+/Tools/Baselines/
+/Tools/test_*.py
+/Tools/check_*.py
+/Tools/verify_*.py
+/Tools/validate_*.py
+/Tools/probe*.py
+/Tools/*_probe.py
+/Tools/inspect_*.py
+/Tools/diagnose_*.py
+/Tools/audit_*.py
+/Tools/capture_*.py
+/Tools/compare_*.py
+/Tools/review_*.py
+/Tools/*.json
+/Tools/finalize_character_loop.py
+/Tools/finalize_reference_lighting.py
+/Tools/encode_easysnow_preview.py
+/Tools/wait_preview.py
 /Tools/*.png
 /Tools/probe.obj
 /Content/MigrationProbe/
+*.bak
+*.bak_*
 
 # Optional vendor content stays local; include the audited scene dependencies below.
 /Content/EasySnow/**
 !/Content/EasySnow/**/
 /Content/Chaotic_Skies_II/**
 !/Content/Chaotic_Skies_II/**/
-# Current scene vendor dependencies; see SourceAssets/SceneDependencies/TianNanGe_EasySnow.json.
+# Current scene vendor dependencies; see ThirdPartyNotices/SceneDependencies.md.
 !/Content/Chaotic_Skies_II/Meshes/SM_Skybox_Mesh.uasset
 !/Content/Chaotic_Skies_II/Textures/Flowmap/T_flowmap_chaoticskies_II_01.uasset
 !/Content/Chaotic_Skies_II/Textures/Flowmap/T_flowmap_chaoticskies_II_04.uasset

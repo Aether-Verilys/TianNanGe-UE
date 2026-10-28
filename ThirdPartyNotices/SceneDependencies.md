@@ -8,6 +8,6 @@
 
 此同步不改变原素材的版权归属或许可，不为这些素材新增开源授权。仓库仍不采用覆盖所有资源的统一许可证。
 
-`SourceAssets/SceneDependencies/TianNanGe_EasySnow.json` 记录保存场景和全部自定义集成资产的递归项目依赖、文件大小与 SHA256。引擎自带资源和插件资源单独列出，由 UE 5.8.3 提供。第三方包中未被引用的演示/示例内容不纳入同步。
+本地 `SourceAssets/SceneDependencies/TianNanGe_EasySnow.json` 记录当时保存场景和自定义集成资产的递归项目依赖、文件大小与 SHA256。`SourceAssets/` 和测试诊断文件现已停止 Git 跟踪，本地副本保留。引擎自带资源和插件资源由 UE 5.8.3 提供。第三方包中未被引用的演示/示例内容不纳入同步。
 
-获取仓库后运行 `git lfs pull`，用 UE 5.8.3 打开 `TianNanGe.uproject`，默认进入当前场景。验证工具为 `Tools/verify_scene_dependencies.py`；它加载已保存地图并读取资产注册表，不保存场景或改变美术参数。依赖加载验证不等同于 GPU 渲染或打包验收。
+获取仓库后运行 `git lfs pull`，用 UE 5.8.3 打开 `TianNanGe.uproject`，默认进入当前场景。历史验证工具 `Tools/verify_scene_dependencies.py` 仅保留在本地；依赖加载验证不等同于 GPU 渲染或打包验收。
